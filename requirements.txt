@@ -1,0 +1,9 @@
+requests
+pandas
+pyyaml
+arxiv
+beautifulsoup4
+datasketch
+streamlit
+plotly
+pytest

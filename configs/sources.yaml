@@ -1,0 +1,13 @@
+arxiv:
+  categories: [cs.AI, cs.CL, cs.MA, cs.LG, cs.SE]
+  keywords: [agent, LLM agent, tool use, function calling, planning, memory, multi-agent, autonomous, computer use]
+  start_date: 2017-01-01
+lab_blogs:
+  - https://openai.com/news
+  - https://www.anthropic.com/news
+  - https://deepmind.google/discover/blog
+github_releases:
+  - Significant-Gravitas/AutoGPT
+  - langchain-ai/langchain
+  - microsoft/autogen
+  - crewAIInc/crewAI
