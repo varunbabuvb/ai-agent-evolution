@@ -2,15 +2,18 @@ import json, time, yaml, os, requests
 from datetime import date
 
 cfg = yaml.safe_load(open("configs/sources.yaml", encoding="utf-8"))
-repos = cfg["github_releases"]
+gh = cfg["github_releases"]
+repos = gh["repos"]
 
 headers = {"Accept": "application/vnd.github+json"}
 token = os.getenv("GITHUB_TOKEN")
 if token:
     headers["Authorization"] = f"Bearer {token}"
 
-MAX_PER_REPO = 150
+MAX_PER_REPO = gh.get("max_per_repo", 1000)
+MIN_BODY = gh.get("min_body_chars", 50)
 out = "data/raw/lab_blogs/github_releases_raw.jsonl"
+os.makedirs(os.path.dirname(out), exist_ok=True)
 total = 0
 
 with open(out, "w", encoding="utf-8") as f:
@@ -21,7 +24,7 @@ with open(out, "w", encoding="utf-8") as f:
             resp = requests.get(url, headers=headers,
                                 params={"per_page": 100, "page": page}, timeout=30)
             if resp.status_code != 200:
-                print(repo, "error", resp.status_code, resp.text[:200])
+                print(repo, "error", resp.status_code, resp.text[:200], "(set GITHUB_TOKEN to raise the rate limit)" if resp.status_code in (403, 429) else "")
                 break
             releases = resp.json()
             if not releases:
@@ -30,7 +33,7 @@ with open(out, "w", encoding="utf-8") as f:
                 if r.get("draft") or not r.get("published_at"):
                     continue
                 body = (r.get("body") or "").strip()
-                if len(body) < 50:
+                if len(body) < MIN_BODY:
                     continue
                 doc = {
                     "doc_id": f"gh_{repo.replace('/', '_')}_{r['id']}",

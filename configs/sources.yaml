@@ -1,13 +1,26 @@
+# Sources, queries and caps (owner: Varun). Collectors read this file.
 arxiv:
   categories: [cs.AI, cs.CL, cs.MA, cs.LG, cs.SE]
-  keywords: [agent, LLM agent, tool use, function calling, planning, memory, multi-agent, autonomous, computer use]
   start_date: 2017-01-01
+  # 2023+ : must mention a language-model term AND an agent term (removes classical multi-agent RL / robotics)
+  llm_terms: ["large language model", "LLM", "language model", "foundation model", "GPT"]
+  agent_terms: [agent, "tool use", "function calling", planning, memory, multi-agent, autonomous, "computer use"]
+  # 2017-2022: language-model era before "LLM agents"; fewer, better-matched papers
+  early_terms: ["language model", "dialogue", "pretrained", "transformer", "natural language instructions", "tool"]
+  per_year_target: {2017: 40, 2018: 40, 2019: 40, 2020: 40, 2021: 40, 2022: 80, 2023: 150, 2024: 180, 2025: 180, 2026: 150}
 lab_blogs:
-  - https://openai.com/news
-  - https://www.anthropic.com/news
-  - https://deepmind.google/discover/blog
+  rss:
+    OpenAI: https://openai.com/news/rss.xml
+    Google DeepMind: https://deepmind.google/blog/rss.xml
+    Google Research: https://research.google/blog/rss/
+    Hugging Face: https://huggingface.co/blog/feed.xml
+    Microsoft Research: https://www.microsoft.com/en-us/research/feed/
+  # No official RSS: read the sitemap, keep URLs containing `url_contains`; a page without a publication date is skipped, never guessed.
+  sitemaps:
+    - {name: Anthropic, sitemap: "https://www.anthropic.com/sitemap.xml", url_contains: "/news/"}
+  full_text_min_chars: 400      # RSS summaries shorter than this are replaced by the full page text (robots.txt respected)
 github_releases:
-  - Significant-Gravitas/AutoGPT
-  - langchain-ai/langchain
-  - microsoft/autogen
-  - crewAIInc/crewAI
+  repos: [Significant-Gravitas/AutoGPT, langchain-ai/langchain, microsoft/autogen, crewAIInc/crewAI]
+  max_per_repo: 3000
+  min_body_chars: 50
+# TODO (not yet collected): Meta AI, Mistral, DeepSeek, Qwen, MCP / A2A announcements - add RSS or sitemap entries above.

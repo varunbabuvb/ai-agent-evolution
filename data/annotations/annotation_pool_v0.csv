@@ -1,0 +1,316 @@
+batch,doc_id,publication_date,source,source_type,title,url,auto_hint
+pilot,la_bd572610e8,2017-10-19,OpenAI,lab_blog,Generalizing from simulation,https://openai.com/index/generalizing-from-simulation,adopt
+pilot,pa_e4e651bfd6,2020-12-16,arXiv,paper,Scalable and Safe Multi-Agent Motion Planning with Nonlinear Dynamics and Bounded Disturbances,http://arxiv.org/abs/2012.09052v1,multi
+pilot,la_9b989c6bdf,2023-01-11,OpenAI,lab_blog,Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk,https://openai.com/index/forecasting-misuse,multi
+pilot,pa_79fd3507e2,2023-09-14,arXiv,paper,Agents: An Open-source Framework for Autonomous Language Agents,http://arxiv.org/abs/2309.07870v3,"multi,adopt,auton"
+pilot,la_0720f18be7,2023-12-14,OpenAI,lab_blog,Superalignment Fast Grants,https://openai.com/index/superalignment-fast-grants,incident
+pilot,la_0b7e7105cf,2024-05-06,OpenAI,lab_blog,API Partnership with Stack Overflow,https://openai.com/index/api-partnership-with-stack-overflow,infra
+pilot,la_621811037f,2024-09-26,OpenAI,lab_blog,Upgrading the Moderation API with our new multimodal moderation model,https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model,infra
+pilot,pa_e971c38b41,2025-01-22,arXiv,paper,SRMT: Shared Memory for Multi-agent Lifelong Pathfinding,http://arxiv.org/abs/2501.13200v2,multi
+pilot,pa_d8d8bc3858,2025-05-16,arXiv,paper,Vaiage: A Multi-Agent Solution to Personalized Travel Planning,http://arxiv.org/abs/2505.10922v1,"multi,infra"
+pilot,re_9fc3bdd754,2025-08-19,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 0.165.1,https://github.com/crewAIInc/crewAI/releases/tag/0.165.1,infra
+pilot,pa_ecdb50855c,2025-10-10,arXiv,paper,ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination,http://arxiv.org/abs/2510.15949v5,"multi,adopt,auton"
+pilot,la_89b0ac10d2,2026-01-20,OpenAI,lab_blog,ServiceNow powers actionable enterprise AI with OpenAI,https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai,"adopt,infra"
+pilot,la_a1bdc83d63,2026-03-25,OpenAI,lab_blog,Introducing the OpenAI Safety Bug Bounty program,https://openai.com/index/safety-bug-bounty,"incident,auton"
+pilot,re_e244016624,2026-05-11,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-core==1.4.0,https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0,
+pilot,re_b6f7069f3f,2026-07-22,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-openrouter==0.2.7,https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.7,
+VV,pa_42ef7c0728,2025-09-29,arXiv,paper,FuncPoison: Poisoning Function Library to Hijack Multi-agent Autonomous Driving Systems,http://arxiv.org/abs/2509.24408v2,"incident,multi,auton"
+VV,pa_7bcce89522,2025-05-23,arXiv,paper,Position: The Real Barrier to LLM Agent Usability is Agentic ROI,http://arxiv.org/abs/2505.17767v2,"adopt,auton"
+VV,pa_38dfadafa7,2026-04-19,arXiv,paper,Agentic Social Affordance Framework (ASAF): Agent Identity Design as a Collaboration Interface in Multi-Agent Systems,http://arxiv.org/abs/2606.09832v2,"multi,auton"
+VV,la_cf00b7ae1f,2023-03-14,OpenAI,lab_blog,GPT-4,https://openai.com/index/gpt-4-research,
+VV,re_fd7fda3ce9,2026-08-14,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-openrouter==0.2.8,https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8,
+VV,pa_6b75b319b6,2024-06-02,arXiv,paper,Teams of LLM Agents can Exploit Zero-Day Vulnerabilities,http://arxiv.org/abs/2406.01637v2,incident
+VV,la_436dcd7b3c,2024-04-24,OpenAI,lab_blog,GPT-4 API general availability and deprecation of older models in the Completions API,https://openai.com/index/gpt-4-api-general-availability,"adopt,infra"
+VV,la_91e1049853,2019-04-23,OpenAI,lab_blog,Generative modeling with sparse transformers,https://openai.com/index/sparse-transformer,
+VV,re_a704a3fc6c,2023-06-27,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.4.3-alpha,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.4.3-alpha,infra
+VV,la_2a4e65640a,2021-10-29,OpenAI,lab_blog,Solving math word problems,https://openai.com/index/solving-math-word-problems,
+VV,pa_fff4e88b99,2026-04-26,arXiv,paper,ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation,http://arxiv.org/abs/2604.23853v2,
+VV,pa_a82486d133,2026-04-13,arXiv,paper,Aethon: A Reference-Based Replication Primitive for Constant-Time Instantiation of Stateful AI Agents,http://arxiv.org/abs/2604.12129v1,"multi,adopt,infra,auton"
+VV,la_a9620e92ad,2026-04-10,OpenAI,lab_blog,AI fundamentals,https://openai.com/academy/what-is-ai,
+VV,pa_b025af3751,2024-10-08,arXiv,paper,AgentSquare: Automatic LLM Agent Search in Modular Design Space,http://arxiv.org/abs/2410.06153v3,"incident,infra,auton"
+VV,la_c65ff78afd,2021-03-04,OpenAI,lab_blog,Multimodal neurons in artificial neural networks,https://openai.com/index/multimodal-neurons,
+VV,re_67eb5a286e,2023-06-19,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.4.1,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.4.1,infra
+VV,pa_4a6904eb67,2025-12-15,arXiv,paper,Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery,http://arxiv.org/abs/2512.13930v1,"multi,auton"
+VV,pa_97b12f765c,2025-11-11,arXiv,paper,From Experience to Strategy: Empowering LLM Agents with Trainable Graph Memory,http://arxiv.org/abs/2511.07800v1,auton
+VV,re_f148ae2b9b,2026-09-16,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.15.22,https://github.com/crewAIInc/crewAI/releases/tag/1.15.22,"incident,adopt,infra"
+VV,pa_2b4863dfbb,2024-07-09,arXiv,paper,Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models,http://arxiv.org/abs/2407.07086v2,"multi,auton"
+VV,la_a8b08e5d98,2017-06-08,OpenAI,lab_blog,"Learning to cooperate, compete, and communicate",https://openai.com/index/learning-to-cooperate-compete-and-communicate,multi
+VV,pa_8604765355,2024-12-06,arXiv,paper,Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications,http://arxiv.org/abs/2412.05449v1,"multi,adopt"
+VV,re_16ef1beaad,2026-03-16,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.11.0rc1,https://github.com/crewAIInc/crewAI/releases/tag/1.11.0rc1,"multi,adopt,infra"
+VV,pa_02c1950e63,2025-12-09,arXiv,paper,Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence,http://arxiv.org/abs/2512.08743v3,"incident,multi"
+VV,la_70a6acae2a,2026-02-27,OpenAI,lab_blog,An update on our mental health-related work,https://openai.com/index/update-on-mental-health-related-work,incident
+VV,la_a0464d4374,2026-04-16,OpenAI,lab_blog,Codex for (almost) everything,https://openai.com/index/codex-for-almost-everything,"infra,auton"
+VV,pa_a00dde92e5,2024-10-16,arXiv,paper,Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning,http://arxiv.org/abs/2410.12952v2,multi
+VV,re_6ba0340734,2024-04-19,microsoft/autogen,release_notes,microsoft/autogen v0.2.26,https://github.com/microsoft/autogen/releases/tag/v0.2.26,"incident,infra"
+VV,re_f8338faa20,2025-08-13,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 0.159.0,https://github.com/crewAIInc/crewAI/releases/tag/0.159.0,"adopt,infra"
+VV,la_27ffa78309,2021-01-05,OpenAI,lab_blog,CLIP: Connecting text and images,https://openai.com/index/clip,
+VV,pa_c0c589aeab,2025-06-17,arXiv,paper,Agentic Plan Caching: Test-Time Memory for Fast and Cost-Efficient LLM Agents,http://arxiv.org/abs/2506.14852v2,"infra,auton"
+VV,pa_366d9f252c,2026-05-07,arXiv,paper,From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms,http://arxiv.org/abs/2605.06716v1,
+VV,re_847fc2939e,2024-01-28,microsoft/autogen,release_notes,microsoft/autogen v0.2.9,https://github.com/microsoft/autogen/releases/tag/v0.2.9,adopt
+VV,re_98eab8be9b,2025-10-09,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.0.0a4,https://github.com/crewAIInc/crewAI/releases/tag/1.0.0a4,"incident,infra"
+VV,re_c0d6abb9d7,2024-03-21,microsoft/autogen,release_notes,microsoft/autogen v0.2.20,https://github.com/microsoft/autogen/releases/tag/v0.2.20,infra
+VV,pa_497cb74ab0,2024-04-25,arXiv,paper,AutoGenesisAgent: Self-Generating Multi-Agent Systems for Complex Tasks,http://arxiv.org/abs/2404.17017v1,"multi,adopt,infra,auton"
+VV,re_2caf5621d9,2026-03-25,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.53,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.53,"multi,infra,auton"
+VV,pa_44c3faea01,2024-07-05,arXiv,paper,AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents,http://arxiv.org/abs/2407.04363v3,auton
+VV,la_c0eeb1f9ee,2026-03-19,OpenAI,lab_blog,How we monitor internal coding agents for misalignment,https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment,"incident,adopt"
+VV,pa_feeb3721d1,2020-10-19,arXiv,paper,SMARTS: Scalable Multi-Agent Reinforcement Learning Training School for Autonomous Driving,http://arxiv.org/abs/2010.09776v2,"multi,infra,auton"
+VV,re_c8fcd78f66,2023-05-02,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.3.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.3.0,infra
+VV,la_e341c3bdfc,2020-04-30,OpenAI,lab_blog,Jukebox,https://openai.com/index/jukebox,
+VV,la_0e68a337b6,2017-06-28,OpenAI,lab_blog,Faster physics in Python,https://openai.com/index/faster-physics-in-python,
+VV,re_cb02b42f2c,2025-02-20,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.4.11,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.4.11,infra
+VV,re_a9860923cf,2025-08-07,microsoft/autogen,release_notes,microsoft/autogen python-v0.7.2,https://github.com/microsoft/autogen/releases/tag/python-v0.7.2,"infra,auton"
+VV,re_bd61013d9e,2024-10-17,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT agpt-platform-beta-v0.1.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/agpt-platform-beta-v0.1.0,infra
+VV,la_e6630b72aa,2024-07-17,OpenAI,lab_blog,Prover-Verifier Games improve legibility of language model outputs,https://openai.com/index/prover-verifier-games-improve-legibility,
+VV,re_8a998c32be,2023-10-21,microsoft/autogen,release_notes,microsoft/autogen v0.1.13,https://github.com/microsoft/autogen/releases/tag/v0.1.13,
+VV,pa_ba27fdf11f,2023-08-24,arXiv,paper,CGMI: Configurable General Multi-Agent Interaction Framework,http://arxiv.org/abs/2308.12503v2,multi
+VV,re_6078639a4b,2026-08-27,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.15.18,https://github.com/crewAIInc/crewAI/releases/tag/1.15.18,"incident,adopt"
+VV,pa_339148b71a,2026-02-17,arXiv,paper,Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections,http://arxiv.org/abs/2602.15654v2,"incident,auton"
+VV,pa_a93c6aacba,2025-11-19,arXiv,paper,"Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support for Incident Response",http://arxiv.org/abs/2511.15755v3,"incident,multi,adopt"
+VV,re_e972b909ff,2026-08-18,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-openai==1.5.2a1,https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1,infra
+VV,la_8002ea3047,2025-02-02,OpenAI,lab_blog,Introducing deep research,https://openai.com/index/introducing-deep-research,
+VV,pa_3f227a5e24,2026-01-13,arXiv,paper,Project Synapse: A Hierarchical Multi-Agent Framework with Hybrid Memory for Autonomous Resolution of Last-Mile Delivery Disruptions,http://arxiv.org/abs/2601.08156v1,"multi,auton"
+VV,la_52ec0eca2c,2026-01-08,OpenAI,lab_blog,Netomi’s lessons for scaling agentic systems into the enterprise,https://openai.com/index/netomi,"adopt,auton"
+VV,pa_ee5bac5b53,2026-03-27,arXiv,paper,Deception and Communication in Autonomous Multi-Agent Systems: An Experimental Study with Among Us,http://arxiv.org/abs/2603.26635v1,"incident,multi,adopt,auton"
+VV,re_8f3c6dee01,2026-07-30,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.15.9,https://github.com/crewAIInc/crewAI/releases/tag/1.15.9,incident
+VV,re_913a01f74e,2024-02-02,microsoft/autogen,release_notes,microsoft/autogen v0.2.10,https://github.com/microsoft/autogen/releases/tag/v0.2.10,multi
+VV,pa_9c1596a38f,2026-06-06,arXiv,paper,Causal Agent Replay: Counterfactual Attribution for LLM-Agent Failures,http://arxiv.org/abs/2606.08275v1,incident
+VV,la_09eb7ecc11,2025-05-16,OpenAI,lab_blog,Addendum to o3 and o4-mini system card: Codex,https://openai.com/index/o3-o4-mini-codex-system-card-addendum,
+VV,pa_79f574058e,2024-11-08,arXiv,paper,Enhancing Cluster Resilience: LLM-agent Based Autonomous Intelligent Cluster Diagnosis System and Evaluation Framework,http://arxiv.org/abs/2411.05349v1,"adopt,auton"
+VV,pa_b73680955c,2023-08-21,arXiv,paper,AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors,http://arxiv.org/abs/2308.10848v3,"multi,adopt,auton"
+VV,la_5d9211f90f,2019-07-10,OpenAI,lab_blog,Why responsible AI development needs cooperation on safety,https://openai.com/index/cooperation-on-safety,"incident,multi"
+VV,re_d975c3cfa4,2023-10-17,microsoft/autogen,release_notes,microsoft/autogen v0.1.11,https://github.com/microsoft/autogen/releases/tag/v0.1.11,
+VV,re_ed9e36b7c6,2024-12-12,microsoft/autogen,release_notes,microsoft/autogen v0.4.0.dev11,https://github.com/microsoft/autogen/releases/tag/v0.4.0.dev11,infra
+VV,la_63828e59ba,2021-06-10,OpenAI,lab_blog,Improving language model behavior by training on a curated dataset,https://openai.com/index/improving-language-model-behavior,
+VV,re_96e67f738a,2026-05-08,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain==1.2.18,https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.18,
+VV,la_f3320159ee,2022-06-28,OpenAI,lab_blog,DALL·E 2 pre-training mitigations,https://openai.com/index/dall-e-2-pre-training-mitigations,
+VV,la_5476e7d0b0,2025-07-23,OpenAI,lab_blog,Model ML is helping financial firms rebuild with AI from the ground up,https://openai.com/index/model-ml-chaz-englander,"infra,auton"
+VV,la_bb36415fef,2025-06-05,OpenAI,lab_blog,How we’re responding to The New York Times’ data demands in order to protect user privacy,https://openai.com/index/response-to-nyt-data-demands,infra
+VV,la_831d33ee1e,2018-11-07,OpenAI,lab_blog,Learning concepts with energy functions,https://openai.com/index/learning-concepts-with-energy-functions,
+VV,la_7de6229579,2023-10-25,OpenAI,lab_blog,Frontier Model Forum updates,https://openai.com/index/frontier-model-forum-updates,"incident,adopt"
+VV,pa_d08f790e2d,2026-06-23,arXiv,paper,Reinforcement Learning for Computer-Use Agents with Autonomous Evaluation,http://arxiv.org/abs/2606.24515v1,auton
+VV,re_4c2c9da9e7,2024-02-06,microsoft/autogen,release_notes,microsoft/autogen v0.2.11,https://github.com/microsoft/autogen/releases/tag/v0.2.11,
+SH,re_e562d54c7e,2026-04-07,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.0a4,https://github.com/crewAIInc/crewAI/releases/tag/1.14.0a4,
+SH,la_f69a340d19,2025-09-30,OpenAI,lab_blog,Launching Sora responsibly,https://openai.com/index/launching-sora-responsibly,"incident,infra"
+SH,re_85cfdd8335,2023-10-10,microsoft/autogen,release_notes,microsoft/autogen v0.1.9,https://github.com/microsoft/autogen/releases/tag/v0.1.9,
+SH,pa_e1d9ad171d,2026-01-28,arXiv,paper,AMA: Adaptive Memory via Multi-Agent Collaboration,http://arxiv.org/abs/2601.20352v4,"multi,auton"
+SH,pa_5548603042,2023-10-16,arXiv,paper,Theory of Mind for Multi-Agent Collaboration via Large Language Models,http://arxiv.org/abs/2310.10701v3,"incident,multi,auton"
+SH,pa_0150f3dec3,2026-06-29,arXiv,paper,Self-Evolving World Models for LLM Agent Planning,http://arxiv.org/abs/2606.30639v2,"incident,adopt,auton"
+SH,la_da3c5b116f,2023-12-14,OpenAI,lab_blog,Weak-to-strong generalization,https://openai.com/index/weak-to-strong-generalization,
+SH,la_100446a7f6,2019-02-14,OpenAI,lab_blog,Better language models and their implications,https://openai.com/index/better-language-models,
+SH,pa_14a86e6f4a,2022-03-06,arXiv,paper,Recursive Reasoning Graph for Multi-Agent Reinforcement Learning,http://arxiv.org/abs/2203.02844v1,multi
+SH,la_54785efd92,2022-06-02,OpenAI,lab_blog,Best practices for deploying language models,https://openai.com/index/best-practices-for-deploying-language-models,adopt
+SH,pa_53739fcb85,2025-04-20,arXiv,paper,An LLM-enabled Multi-Agent Autonomous Mechatronics Design Framework,http://arxiv.org/abs/2504.14681v1,"multi,infra,auton"
+SH,pa_7ee3de43a8,2024-02-05,arXiv,paper,LLM Multi-Agent Systems: Challenges and Open Problems,http://arxiv.org/abs/2402.03578v3,multi
+SH,la_9fc0c61c22,2024-07-24,OpenAI,lab_blog,Improving Model Safety Behavior with Rule-Based Rewards,https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards,incident
+SH,pa_715946df7b,2023-12-13,arXiv,paper,Large Language Model Enhanced Multi-Agent Systems for 6G Communications,http://arxiv.org/abs/2312.07850v1,"multi,infra"
+SH,la_e375ef0de5,2021-01-25,OpenAI,lab_blog,"Scaling Kubernetes to 7,500 nodes",https://openai.com/index/scaling-kubernetes-to-7500-nodes,infra
+SH,pa_7ab9c1a2df,2025-08-27,arXiv,paper,Encouraging Good Processes Without the Need for Good Answers: Reinforcement Learning for LLM Agent Planning,http://arxiv.org/abs/2508.19598v1,
+SH,re_75676be7db,2023-10-28,microsoft/autogen,release_notes,microsoft/autogen v0.1.14,https://github.com/microsoft/autogen/releases/tag/v0.1.14,
+SH,pa_8cf02d552d,2025-09-10,arXiv,paper,GeoJSON Agents:A Multi-Agent LLM Architecture for Geospatial Analysis-Function Calling vs Code Generation,http://arxiv.org/abs/2509.08863v3,"multi,infra"
+SH,re_fea02de5e6,2025-07-28,microsoft/autogen,release_notes,microsoft/autogen python-v0.7.1,https://github.com/microsoft/autogen/releases/tag/python-v0.7.1,infra
+SH,la_2d5fba6a19,2024-05-30,OpenAI,lab_blog,Introducing OpenAI for Nonprofits,https://openai.com/index/introducing-openai-for-nonprofits,adopt
+SH,re_e8e4149b01,2025-10-22,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.34,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.34,"incident,infra"
+SH,pa_6b359407c4,2025-06-18,arXiv,paper,LLM Agent for Hyper-Parameter Optimization,http://arxiv.org/abs/2506.15167v2,"multi,infra"
+SH,re_d4d09d1001,2023-12-06,microsoft/autogen,release_notes,microsoft/autogen v0.2.1,https://github.com/microsoft/autogen/releases/tag/v0.2.1,multi
+SH,re_8475575b7a,2025-11-26,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.38,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.38,infra
+SH,pa_8f971a6ec3,2025-02-26,arXiv,paper,"REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems on Real-world, Dynamic Planning and Scheduling Tasks",http://arxiv.org/abs/2502.18836v2,"incident,multi"
+SH,re_cf52729f01,2023-05-15,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.3.1,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.3.1,"infra,auton"
+SH,pa_518aeb01c3,2024-02-02,arXiv,paper,CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology,http://arxiv.org/abs/2402.01411v4,"multi,infra,auton"
+SH,re_76721e1ec4,2026-08-11,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-core==1.5.4,https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.4,
+SH,la_b8fbaaa1a7,2019-03-04,OpenAI,lab_blog,Neural MMO: A massively multiagent game environment,https://openai.com/index/neural-mmo,"multi,infra"
+SH,la_1be6d5a75d,2022-06-23,OpenAI,lab_blog,Learning to play Minecraft with Video PreTraining,https://openai.com/index/vpt,
+SH,la_359738e7b0,2026-01-08,OpenAI,lab_blog,OpenAI for Healthcare,https://openai.com/index/openai-for-healthcare,adopt
+SH,la_c3086d499c,2026-03-17,OpenAI,lab_blog,Introducing GPT-5.4 mini and nano,https://openai.com/index/introducing-gpt-5-4-mini-and-nano,infra
+SH,re_f6a082d95f,2026-03-12,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT AutoGPT Platform v0.6.51 🚀,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.51,infra
+SH,pa_a7d2e7274d,2024-08-01,arXiv,paper,AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation,http://arxiv.org/abs/2408.00764v3,
+SH,la_bbf31f939c,2023-03-23,OpenAI,lab_blog,ChatGPT plugins,https://openai.com/index/chatgpt-plugins,"incident,infra"
+SH,re_c73111ab4e,2026-04-21,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.3a2,https://github.com/crewAIInc/crewAI/releases/tag/1.14.3a2,
+SH,re_c01b9a7861,2025-07-08,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.15,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.15,infra
+SH,re_6a152a8223,2026-01-15,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.8.1,https://github.com/crewAIInc/crewAI/releases/tag/1.8.1,"multi,infra"
+SH,la_354f2a89c1,2024-12-05,OpenAI,lab_blog,OpenAI o1 System Card,https://openai.com/index/openai-o1-system-card,incident
+SH,la_70dadf2e6e,2026-02-28,OpenAI,lab_blog,Our agreement with the Department of War,https://openai.com/index/our-agreement-with-the-department-of-war,"incident,adopt"
+SH,la_5c157a0f1b,2026-02-27,OpenAI,lab_blog,OpenAI and Amazon announce strategic partnership,https://openai.com/index/amazon-partnership,"adopt,infra"
+SH,pa_d335b3aebe,2023-09-28,arXiv,paper,MotionLM: Multi-Agent Motion Forecasting as Language Modeling,http://arxiv.org/abs/2309.16534v1,"multi,adopt,auton"
+SH,la_c486538cb1,2024-05-13,OpenAI,lab_blog,Introducing GPT-4o and more tools to ChatGPT free users,https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free,
+SH,la_9b042a61ba,2025-09-22,OpenAI,lab_blog,SchoolAI builds an AI platform that empowers teachers,https://openai.com/index/schoolai,"adopt,infra"
+SH,re_017fde5659,2025-04-15,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.4,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.4,infra
+SH,la_9bf2135904,2025-09-15,OpenAI,lab_blog,How people are using ChatGPT,https://openai.com/index/how-people-are-using-chatgpt,adopt
+SH,la_9a9d95f5c0,2024-07-10,OpenAI,lab_blog,OpenAI and Los Alamos National Laboratory announce research partnership,https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together,incident
+SH,re_96537f73d7,2025-09-26,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 0.201.0,https://github.com/crewAIInc/crewAI/releases/tag/0.201.0,infra
+SH,pa_8fa1443c8b,2025-11-25,arXiv,paper,Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory,http://arxiv.org/abs/2511.20857v2,adopt
+SH,la_138f009536,2019-03-21,OpenAI,lab_blog,Implicit generation and generalization methods for energy-based models,https://openai.com/index/energy-based-models,
+SH,la_0d668aeed3,2017-06-13,OpenAI,lab_blog,Learning from human preferences,https://openai.com/index/learning-from-human-preferences,"incident,multi"
+SH,re_f4d40f87ee,2026-07-01,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.15.2a2,https://github.com/crewAIInc/crewAI/releases/tag/1.15.2a2,
+SH,pa_7d171a840c,2025-08-26,arXiv,paper,QAgent: An LLM-based Multi-Agent System for Autonomous OpenQASM programming,http://arxiv.org/abs/2508.20134v2,"multi,infra,auton"
+SH,la_483586da1c,2025-03-31,OpenAI,lab_blog,New funding to build towards AGI,https://openai.com/index/march-funding-updates,"adopt,infra"
+SH,re_a9cd035e1b,2023-12-14,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT AutoGPT v0.5.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-v0.5.0,infra
+SH,pa_e4fc7a2f26,2026-04-17,arXiv,paper,SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems,http://arxiv.org/abs/2604.16022v1,"incident,multi,auton"
+SH,la_cfa376d35c,2025-10-06,OpenAI,lab_blog,Codex is now generally available,https://openai.com/index/codex-now-generally-available,"adopt,infra"
+SH,re_7876e16e36,2026-03-26,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.12.2,https://github.com/crewAIInc/crewAI/releases/tag/1.12.2,adopt
+SH,la_5f97ba92d4,2017-02-24,OpenAI,lab_blog,Attacking machine learning with adversarial examples,https://openai.com/index/attacking-machine-learning-with-adversarial-examples,incident
+SH,la_25e1e85d3f,2025-09-24,OpenAI,lab_blog,ENEOS Materials brings ChatGPT Enterprise to manufacturing,https://openai.com/index/eneos-materials,"incident,adopt"
+SH,re_cefdf6379f,2026-07-17,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT AutoGPT Platform v0.6.68,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.68,infra
+SH,la_b277c65ceb,2017-09-14,OpenAI,lab_blog,Learning to model other minds,https://openai.com/index/learning-to-model-other-minds,multi
+SH,re_61ad6cb8ea,2025-10-02,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.31,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.31,infra
+SH,re_751416cd0a,2025-07-01,microsoft/autogen,release_notes,microsoft/autogen python-v0.6.2,https://github.com/microsoft/autogen/releases/tag/python-v0.6.2,
+SH,la_10e69babef,2026-04-08,OpenAI,lab_blog,Introducing the Child Safety Blueprint,https://openai.com/index/introducing-child-safety-blueprint,"incident,multi"
+SH,pa_25080a8f0d,2026-04-11,arXiv,paper,ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents,http://arxiv.org/abs/2604.10352v1,incident
+SH,la_47586cf3bf,2018-07-04,OpenAI,lab_blog,Learning Montezuma’s Revenge from a single demonstration,https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration,
+SH,la_e3a27050a9,2024-08-08,OpenAI,lab_blog,Zico Kolter Joins OpenAI’s Board of Directors,https://openai.com/index/zico-kolter-joins-openais-board-of-directors,incident
+SH,re_c26ed93268,2025-04-10,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.3,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.3,infra
+SH,re_1b019d87cd,2023-11-11,microsoft/autogen,release_notes,microsoft/autogen v0.2.0b4,https://github.com/microsoft/autogen/releases/tag/v0.2.0b4,
+SH,re_78ec04dc83,2024-11-18,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.3.2,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.3.2,infra
+SH,pa_a047761cd2,2024-09-01,arXiv,paper,TinyAgent: Function Calling at the Edge,http://arxiv.org/abs/2409.00608v3,"adopt,infra,auton"
+SH,re_90a5ed318d,2026-06-10,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain==1.3.5,https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.5,
+SH,re_a84a0b3431,2025-02-08,microsoft/autogen,release_notes,microsoft/autogen autogenstudio-v0.4.1,https://github.com/microsoft/autogen/releases/tag/autogenstudio-v0.4.1,
+SH,la_861bee6c31,2022-01-27,OpenAI,lab_blog,Aligning language models to follow instructions,https://openai.com/index/instruction-following,"adopt,infra"
+TS,re_f83757682e,2026-07-08,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-openai==1.3.4,https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.4,"incident,infra"
+TS,re_85dc1fb56c,2024-12-20,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.4.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.4.0,"infra,auton"
+TS,la_a6fde770d6,2025-09-30,OpenAI,lab_blog,Sora 2 System Card,https://openai.com/index/sora-2-system-card,
+TS,pa_73f5f2263b,2025-07-29,arXiv,paper,MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations,http://arxiv.org/abs/2507.21428v1,"infra,auton"
+TS,re_acaeb92cee,2025-12-03,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.39,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.39,infra
+TS,pa_171d255f19,2025-07-07,arXiv,paper,Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions,http://arxiv.org/abs/2507.05257v4,
+TS,re_68ababaa07,2025-08-06,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.19,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.19,"incident,infra"
+TS,re_a6e49b21d8,2025-02-12,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.4.10,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.4.10,infra
+TS,re_04c4c1ccc0,2023-07-11,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.4.4,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.4.4,
+TS,pa_0192517a74,2022-10-05,arXiv,paper,Cost Aware Asynchronous Multi-Agent Active Search,http://arxiv.org/abs/2210.02259v1,"multi,auton"
+TS,re_4581f861f1,2026-01-28,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.44,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.6.44,"incident,infra"
+TS,re_d86fe9128a,2026-01-27,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.9.0,https://github.com/crewAIInc/crewAI/releases/tag/1.9.0,"multi,infra"
+TS,pa_aa493bb1a6,2025-08-21,arXiv,paper,Coarse-to-Fine Grounded Memory for LLM Agent Planning,http://arxiv.org/abs/2508.15305v2,
+TS,re_6decd50eb2,2025-01-29,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.4.4,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.4.4,"incident,infra"
+TS,la_358d846eab,2025-08-05,OpenAI,lab_blog,Open Weights and AI for All,https://openai.com/global-affairs/open-weights-and-ai-for-all,
+TS,re_ae37ddc905,2025-07-23,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 0.150.0,https://github.com/crewAIInc/crewAI/releases/tag/0.150.0,"infra,auton"
+TS,re_96d03c959c,2024-10-31,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT agpt-platform-beta-v0.2.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/agpt-platform-beta-v0.2.0,infra
+TS,re_e34cb22220,2023-09-30,microsoft/autogen,release_notes,microsoft/autogen v0.1.4,https://github.com/microsoft/autogen/releases/tag/v0.1.4,multi
+TS,pa_dd22c43f48,2026-08-24,arXiv,paper,InjecMEM: Memory Injection Attack on LLM Agent Memory Systems,http://arxiv.org/abs/2608.23471v1,"incident,adopt"
+TS,pa_032deaf638,2025-05-22,arXiv,paper,Is Your LLM-Based Multi-Agent a Reliable Real-World Planner? Exploring Fraud Detection in Travel Planning,http://arxiv.org/abs/2505.16557v2,"multi,infra,auton"
+TS,re_1ae507fa36,2025-10-01,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.0.0a1,https://github.com/crewAIInc/crewAI/releases/tag/1.0.0a1,infra
+TS,pa_65118d35fd,2026-07-08,arXiv,paper,Multi-Agent Robotic Control with Onboard Vision-Language Models,http://arxiv.org/abs/2607.07403v1,"incident,multi,adopt,auton"
+TS,la_69570f0651,2022-06-13,OpenAI,lab_blog,AI-written critiques help humans notice flaws,https://openai.com/index/critiques,
+TS,pa_b9b754d044,2023-07-06,arXiv,paper,Wireless Multi-Agent Generative AI: From Connected Intelligence to Collective Intelligence,http://arxiv.org/abs/2307.02757v1,multi
+TS,pa_8b506a6bd9,2025-02-06,arXiv,paper,Robotouille: An Asynchronous Planning Benchmark for LLM Agents,http://arxiv.org/abs/2502.05227v1,"incident,multi,auton"
+TS,la_ce60d03934,2025-09-25,OpenAI,lab_blog,Introducing ChatGPT Pulse,https://openai.com/index/introducing-chatgpt-pulse,
+TS,pa_c5ad26190a,2026-08-24,arXiv,paper,Right-Sizing LLM-Agent Decomposition in VAT Determination: A Pilot Controlled Sweep,http://arxiv.org/abs/2608.23395v1,"incident,multi"
+TS,pa_0f4720ab65,2024-07-19,arXiv,paper,KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with Large Language Models,http://arxiv.org/abs/2407.14239v1,"incident,multi,auton"
+TS,la_98fb25b713,2018-12-06,OpenAI,lab_blog,Quantifying generalization in reinforcement learning,https://openai.com/index/quantifying-generalization-in-reinforcement-learning,infra
+TS,re_c43b12b0cb,2025-10-16,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.0.0b2,https://github.com/crewAIInc/crewAI/releases/tag/1.0.0b2,"incident,infra"
+TS,re_2039150c8a,2026-02-04,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.46,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.46,infra
+TS,re_55bb413b3b,2023-06-05,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.4.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.4.0,infra
+TS,pa_9160c745b2,2025-02-13,arXiv,paper,AgentGuard: Repurposing Agentic Orchestrator for Safety Evaluation of Tool Orchestration,http://arxiv.org/abs/2502.09809v1,"incident,multi,adopt,infra,auton"
+TS,re_918980b5fa,2023-11-21,microsoft/autogen,release_notes,microsoft/autogen v0.2.0b6,https://github.com/microsoft/autogen/releases/tag/v0.2.0b6,
+TS,re_5d93611828,2026-05-28,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-anthropic==1.4.4,https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.4,"incident,infra"
+TS,pa_d1e690f87b,2026-07-22,arXiv,paper,Harnessing Disagreement: Detecting Correlated Agreement Blindness in Multi-Agent Triage,http://arxiv.org/abs/2607.19899v1,"incident,multi,adopt,auton"
+TS,pa_0af58daead,2023-10-01,arXiv,paper,Adapting LLM Agents with Universal Feedback in Communication,http://arxiv.org/abs/2310.01444v3,multi
+TS,re_75d06983e2,2024-03-12,microsoft/autogen,release_notes,microsoft/autogen v0.2.18,https://github.com/microsoft/autogen/releases/tag/v0.2.18,
+TS,re_14f5813247,2023-11-25,microsoft/autogen,release_notes,microsoft/autogen v0.2.0,https://github.com/microsoft/autogen/releases/tag/v0.2.0,"adopt,infra"
+TS,pa_a6abfdd184,2024-10-03,arXiv,paper,AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML,http://arxiv.org/abs/2410.02958v2,"incident,multi,adopt"
+TS,pa_f9e814b50f,2024-12-17,arXiv,paper,SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents,http://arxiv.org/abs/2412.13178v5,"incident,multi,infra"
+TS,re_b28c2a4433,2024-01-08,microsoft/autogen,release_notes,microsoft/autogen v0.2.5,https://github.com/microsoft/autogen/releases/tag/v0.2.5,
+TS,pa_eeff6acd83,2024-08-05,arXiv,paper,ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems,http://arxiv.org/abs/2408.02248v2,multi
+TS,re_3264cac385,2025-09-30,microsoft/autogen,release_notes,microsoft/autogen python-v0.7.5,https://github.com/microsoft/autogen/releases/tag/python-v0.7.5,"incident,infra"
+TS,re_ee07e8f90e,2025-11-01,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.3.0,https://github.com/crewAIInc/crewAI/releases/tag/1.3.0,
+TS,pa_bb4ec1c65f,2024-01-21,arXiv,paper,Large Language Model based Multi-Agents: A Survey of Progress and Challenges,http://arxiv.org/abs/2402.01680v2,"multi,auton"
+TS,re_7a25665ecd,2026-07-21,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-anthropic==1.5.0,https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.0,
+TS,la_8207a8a99c,2026-02-04,OpenAI,lab_blog,Unlocking the Codex harness: how we built the App Server,https://openai.com/index/unlocking-the-codex-harness,infra
+TS,pa_00dfa80dee,2017-09-04,arXiv,paper,Consensus of second order multi-agents with actuator saturation and asynchronous time-delays,http://arxiv.org/abs/1709.00951v3,multi
+TS,pa_4ab863af80,2024-11-26,arXiv,paper,MALMM: Multi-Agent Large Language Models for Zero-Shot Robotics Manipulation,http://arxiv.org/abs/2411.17636v2,"incident,multi,auton"
+TS,pa_aa97133b57,2025-04-11,arXiv,paper,Task Memory Engine (TME): Enhancing State Awareness for Multi-Step LLM Agent Tasks,http://arxiv.org/abs/2504.08525v4,"infra,auton"
+TS,la_0f569fe062,2023-08-15,OpenAI,lab_blog,Using GPT-4 for content moderation,https://openai.com/index/using-gpt-4-for-content-moderation,
+TS,re_750f2b7ba7,2024-10-23,microsoft/autogen,release_notes,microsoft/autogen v0.2.37,https://github.com/microsoft/autogen/releases/tag/v0.2.37,
+TS,pa_c59ce3e74e,2025-04-30,arXiv,paper,LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics,http://arxiv.org/abs/2504.21716v1,"multi,auton"
+TS,re_f90af67292,2023-04-15,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.2.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.2.0,
+TS,pa_d195f2ee7d,2024-05-09,arXiv,paper,Smurfs: Multi-Agent System using Context-Efficient DFSDT for Tool Planning,http://arxiv.org/abs/2405.05955v4,multi
+TS,la_e13f290e48,2022-01-25,OpenAI,lab_blog,Introducing text and code embeddings,https://openai.com/index/introducing-text-and-code-embeddings,infra
+TS,pa_643faf69b4,2024-02-17,arXiv,paper,KG-Agent: An Efficient Autonomous Agent Framework for Complex Reasoning over Knowledge Graph,http://arxiv.org/abs/2402.11163v1,auton
+TS,la_3465dbe784,2026-01-13,OpenAI,lab_blog,Zenken boosts a lean sales team with ChatGPT Enterprise,https://openai.com/index/zenken,adopt
+TS,la_546549971e,2019-08-22,OpenAI,lab_blog,Testing robustness against unforeseen adversaries,https://openai.com/index/testing-robustness,incident
+TS,re_0f6a8aa168,2026-06-18,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.64,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.64,"adopt,infra"
+TS,pa_521a6aa01e,2024-07-30,arXiv,paper,Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification,http://arxiv.org/abs/2407.20859v1,"incident,multi,adopt,auton"
+TS,re_95a608f1ab,2024-12-02,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.3.4,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.3.4,infra
+TS,re_4737eaa98e,2024-04-26,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT AutoGPT v0.5.1,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-v0.5.1,"infra,auton"
+TS,la_ab9909aef0,2026-02-13,OpenAI,lab_blog,Scaling social science research,https://openai.com/index/scaling-social-science-research,
+TS,pa_2f83c51770,2026-07-28,arXiv,paper,Hybrid Analysis for Secure MCP Tool Use in LLM Agents,http://arxiv.org/abs/2607.25297v1,"incident,adopt,infra"
+TS,re_bf37ba1a91,2025-05-09,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT 🚀 AutoGPT Platform v0.6.9,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.9,"incident,infra"
+TS,re_4d558c627d,2026-06-03,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.7a1,https://github.com/crewAIInc/crewAI/releases/tag/1.14.7a1,infra
+TS,re_6de9282d21,2025-12-09,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.7.0,https://github.com/crewAIInc/crewAI/releases/tag/1.7.0,"multi,infra"
+TS,re_67f15291b3,2025-03-26,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.1,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.1,"incident,infra"
+TS,re_99c930619b,2026-09-04,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.15.19,https://github.com/crewAIInc/crewAI/releases/tag/1.15.19,"incident,infra"
+TS,la_23794afa1f,2018-02-26,OpenAI,lab_blog,Ingredients for robotics research,https://openai.com/index/ingredients-for-robotics-research,
+TS,re_c65ecffe3d,2026-04-20,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.3a1,https://github.com/crewAIInc/crewAI/releases/tag/1.14.3a1,incident
+TS,pa_7c79d9f528,2024-06-27,arXiv,paper,Granite-Function Calling Model: Introducing Function Calling Abilities via Multi-task Learning of Granular Tasks,http://arxiv.org/abs/2407.00121v1,auton
+TS,re_bd27a8fd6f,2026-06-05,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.7a2,https://github.com/crewAIInc/crewAI/releases/tag/1.14.7a2,"adopt,infra"
+HA,re_19f9f4cf2e,2023-10-01,microsoft/autogen,release_notes,microsoft/autogen v0.1.5,https://github.com/microsoft/autogen/releases/tag/v0.1.5,
+HA,pa_3f3e3a0696,2023-01-20,arXiv,paper,Accelerating Multi-Agent Planning Using Graph Transformers with Bounded Suboptimality,http://arxiv.org/abs/2301.08451v1,multi
+HA,la_e56419c90d,2023-05-09,OpenAI,lab_blog,Language models can explain neurons in language models,https://openai.com/index/language-models-can-explain-neurons-in-language-models,
+HA,re_39ac3e570d,2024-01-18,microsoft/autogen,release_notes,microsoft/autogen v0.2.7,https://github.com/microsoft/autogen/releases/tag/v0.2.7,infra
+HA,la_b8adbf7d31,2022-07-18,OpenAI,lab_blog,Reducing bias and improving safety in DALL·E 2,https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2,incident
+HA,pa_e08fe768fd,2024-05-25,arXiv,paper,STRIDE: A Tool-Assisted LLM Agent Framework for Strategic and Interactive Decision-Making,http://arxiv.org/abs/2405.16376v2,"multi,adopt"
+HA,pa_16ba62159d,2025-07-02,arXiv,paper,BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments,http://arxiv.org/abs/2507.01485v1,"multi,infra,auton"
+HA,re_a2d2a468da,2024-02-16,microsoft/autogen,release_notes,microsoft/autogen v0.2.14,https://github.com/microsoft/autogen/releases/tag/v0.2.14,infra
+HA,pa_e7345ea32b,2018-02-23,arXiv,paper,Fully Decentralized Multi-Agent Reinforcement Learning with Networked Agents,http://arxiv.org/abs/1802.08757v2,multi
+HA,re_78b44fbad5,2026-06-10,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.63,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.63,"multi,infra"
+HA,re_e724aabdff,2026-04-17,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.2,https://github.com/crewAIInc/crewAI/releases/tag/1.14.2,"incident,multi,adopt,infra"
+HA,la_a8eaf9f821,2025-08-07,OpenAI,lab_blog,GPT-5 System Card,https://openai.com/index/gpt-5-system-card,
+HA,re_477c1b9343,2025-10-27,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.2.1,https://github.com/crewAIInc/crewAI/releases/tag/1.2.1,infra
+HA,re_597a69b5e8,2026-08-05,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.7.0,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.7.0,infra
+HA,re_67772a0a2b,2025-01-13,microsoft/autogen,release_notes,microsoft/autogen python-v0.4.1,https://github.com/microsoft/autogen/releases/tag/v0.4.1,"multi,infra,auton"
+HA,pa_b491288c02,2026-06-07,arXiv,paper,ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems,http://arxiv.org/abs/2606.08702v1,multi
+HA,re_2e514dee44,2026-04-22,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.3a3,https://github.com/crewAIInc/crewAI/releases/tag/1.14.3a3,infra
+HA,la_a94a505651,2018-10-22,OpenAI,lab_blog,Learning complex goals with iterated amplification,https://openai.com/index/learning-complex-goals-with-iterated-amplification,incident
+HA,pa_4497fc23bd,2024-07-14,arXiv,paper,LLaMAR: Long-Horizon Planning for Multi-Agent Robots in Partially Observable Environments,http://arxiv.org/abs/2407.10031v2,"multi,auton"
+HA,re_e444ca3e81,2026-03-04,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.10.1,https://github.com/crewAIInc/crewAI/releases/tag/1.10.1,"multi,infra"
+HA,la_9c8da1bdee,2018-07-09,OpenAI,lab_blog,Glow: Better reversible generative models,https://openai.com/index/glow,
+HA,re_2dc57cc1a9,2026-05-27,langchain-ai/langchain,release_notes,langchain-ai/langchain langchain-perplexity==1.3.0,https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.3.0,
+HA,pa_bf554c3abe,2023-12-07,arXiv,paper,An LLM Compiler for Parallel Function Calling,http://arxiv.org/abs/2312.04511v3,multi
+HA,re_996769ec2d,2026-04-13,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.2a3,https://github.com/crewAIInc/crewAI/releases/tag/1.14.2a3,"incident,multi,adopt"
+HA,pa_20ba4d96bc,2025-11-07,arXiv,paper,TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems,http://arxiv.org/abs/2511.05269v1,"incident,multi,adopt,auton"
+HA,pa_1ef12c994b,2025-11-25,arXiv,paper,"""Are We Done Yet?"": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents",http://arxiv.org/abs/2511.20067v1,auton
+HA,re_22c890f8c5,2026-06-11,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.7,https://github.com/crewAIInc/crewAI/releases/tag/1.14.7,infra
+HA,la_2d6b93a4ca,2020-04-14,OpenAI,lab_blog,OpenAI Microscope,https://openai.com/index/microscope,
+HA,pa_28f32a12d2,2021-07-19,arXiv,paper,E-PDDL: A Standardized Way of Defining Epistemic Planning Problems,http://arxiv.org/abs/2107.08739v1,"multi,auton"
+HA,pa_7bf3c8b23e,2026-06-18,arXiv,paper,Multi-Agent Transactive Memory,http://arxiv.org/abs/2606.19911v2,"multi,adopt,infra"
+HA,la_f3f47538cb,2026-01-27,OpenAI,lab_blog,TRUSTBANK uses AI agents to personalize Furusato Nozei gifts,https://openai.com/index/trustbank,
+HA,re_8101e2f5bc,2026-04-30,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.4,https://github.com/crewAIInc/crewAI/releases/tag/1.14.4,"incident,infra"
+HA,la_ae88f447f7,2021-08-10,OpenAI,lab_blog,OpenAI Codex,https://openai.com/index/openai-codex,infra
+HA,pa_d47e1aeff8,2018-09-28,arXiv,paper,Relational Forward Models for Multi-Agent Learning,http://arxiv.org/abs/1809.11044v1,"multi,auton"
+HA,la_2207582be6,2022-05-18,OpenAI,lab_blog,DALL·E 2 research preview update,https://openai.com/index/dall-e-2-update,"incident,adopt"
+HA,pa_36b97b9e3c,2024-10-17,arXiv,paper,LLM Agent Honeypot: Monitoring AI Hacking Agents in the Wild,http://arxiv.org/abs/2410.13919v2,"incident,adopt,auton"
+HA,la_0fcd44c99a,2022-07-14,OpenAI,lab_blog,DALL·E 2: Extending creativity,https://openai.com/index/dall-e-2-extending-creativity,
+HA,la_36bc196e70,2025-08-27,OpenAI,lab_blog,OpenAI and Anthropic share findings from a joint safety evaluation,https://openai.com/index/openai-anthropic-safety-evaluation,"incident,multi"
+HA,re_036d348eb9,2025-10-08,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.32,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.32,"incident,infra,auton"
+HA,pa_04ffb36f6d,2024-03-21,arXiv,paper,Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering,http://arxiv.org/abs/2403.14783v1,"incident,multi"
+HA,la_5c4c66d965,2023-08-31,OpenAI,lab_blog,Teaching with AI,https://openai.com/index/teaching-with-ai,
+HA,re_18840d713e,2024-06-21,microsoft/autogen,release_notes,microsoft/autogen v0.2.30,https://github.com/microsoft/autogen/releases/tag/v0.2.30,infra
+HA,pa_4dbe4ec765,2021-06-12,arXiv,paper,A Game-Theoretic Approach to Multi-Agent Trust Region Optimization,http://arxiv.org/abs/2106.06828v1,multi
+HA,la_994045968d,2017-10-11,OpenAI,lab_blog,Meta-learning for wrestling,https://openai.com/index/meta-learning-for-wrestling,
+HA,re_df1be0a9be,2023-07-28,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.4.6,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.4.6,"incident,infra"
+HA,pa_e0ea8389c9,2023-10-02,arXiv,paper,ChoiceMates: Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions,http://arxiv.org/abs/2310.01331v4,multi
+HA,re_0afb8034c7,2023-04-16,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT Auto-GPT v0.2.1,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/v0.2.1,"infra,auton"
+HA,la_c526522b39,2026-02-19,OpenAI,lab_blog,Advancing independent research on AI alignment,https://openai.com/index/advancing-independent-research-ai-alignment,incident
+HA,la_9299275e4c,2023-02-01,OpenAI,lab_blog,Introducing ChatGPT Plus,https://openai.com/index/chatgpt-plus,
+HA,re_c25a82592c,2026-07-22,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT 🚀 AutoGPT Platform v0.6.69,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.69,"adopt,infra"
+HA,re_117721e3af,2026-09-09,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.15.21,https://github.com/crewAIInc/crewAI/releases/tag/1.15.21,"incident,adopt,infra"
+HA,re_e2da7f1f11,2025-10-14,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.0.0b1,https://github.com/crewAIInc/crewAI/releases/tag/1.0.0b1,"incident,infra"
+HA,pa_669a1eff4d,2019-01-23,arXiv,paper,Hierarchical Reinforcement Learning for Multi-agent MOBA Game,http://arxiv.org/abs/1901.08004v6,"multi,infra"
+HA,re_0d23d1f6b0,2024-01-08,microsoft/autogen,release_notes,microsoft/autogen v0.2.4,https://github.com/microsoft/autogen/releases/tag/v0.2.4,incident
+HA,pa_a3528fbcee,2024-10-21,arXiv,paper,VipAct: Visual-Perception Enhancement via Specialized VLM Agent Collaboration and Tool-use,http://arxiv.org/abs/2410.16400v2,multi
+HA,pa_03637e5d4a,2025-02-17,arXiv,paper,A-MEM: Agentic Memory for LLM Agents,http://arxiv.org/abs/2502.12110v11,auton
+HA,la_ab87880304,2020-06-17,OpenAI,lab_blog,Image GPT,https://openai.com/index/image-gpt,
+HA,re_3267e079d6,2026-04-24,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.14.3,https://github.com/crewAIInc/crewAI/releases/tag/1.14.3,"incident,infra"
+HA,la_898bd56772,2025-10-01,OpenAI,lab_blog,Cyber Operation: Phishing and scripting support,https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support,
+HA,la_0e877327bc,2025-08-05,OpenAI,lab_blog,Introducing gpt-oss,https://openai.com/index/introducing-gpt-oss,adopt
+HA,re_638053545a,2024-10-02,microsoft/autogen,release_notes,microsoft/autogen v0.2.36,https://github.com/microsoft/autogen/releases/tag/v0.2.36,infra
+HA,re_20ccac5265,2026-08-20,crewAIInc/crewAI,release_notes,crewAIInc/crewAI 1.15.17,https://github.com/crewAIInc/crewAI/releases/tag/1.15.17,infra
+HA,re_ba1eff5f4e,2023-10-19,microsoft/autogen,release_notes,microsoft/autogen v0.1.12,https://github.com/microsoft/autogen/releases/tag/v0.1.12,incident
+HA,la_d96d69db2e,2025-05-22,OpenAI,lab_blog,"Shipping code faster with o3, o4-mini, and GPT-4.1",https://openai.com/index/coderabbit,
+HA,la_6c720b8500,2024-05-29,OpenAI,lab_blog,A Content and Product Partnership with Vox Media,https://openai.com/index/a-content-and-product-partnership-with-vox-media,
+HA,la_5427ee1230,2019-04-25,OpenAI,lab_blog,MuseNet,https://openai.com/index/musenet,
+HA,la_a00671f399,2025-02-25,OpenAI,lab_blog,Deep research System Card,https://openai.com/index/deep-research-system-card,incident
+HA,pa_926f28c20a,2023-11-17,arXiv,paper,A Language Agent for Autonomous Driving,http://arxiv.org/abs/2311.10813v4,"incident,auton"
+HA,la_fa1ebe6395,2022-11-30,OpenAI,lab_blog,Introducing ChatGPT,https://openai.com/index/chatgpt,
+HA,la_06dd07515d,2023-07-26,OpenAI,lab_blog,Frontier Model Forum,https://openai.com/index/frontier-model-forum,incident
+HA,re_2de3aae31c,2024-10-24,Significant-Gravitas/AutoGPT,release_notes,Significant-Gravitas/AutoGPT agpt-platform-beta-v0.1.1,https://github.com/Significant-Gravitas/AutoGPT/releases/tag/agpt-platform-beta-v0.1.1,"adopt,infra"
+HA,la_88660b2973,2026-02-26,OpenAI,lab_blog,Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting,https://openai.com/index/pacific-northwest-national-laboratory,infra
+HA,re_a8f6a09d9f,2025-03-07,microsoft/autogen,release_notes,microsoft/autogen python-v0.4.8.2,https://github.com/microsoft/autogen/releases/tag/python-v0.4.8.2,
+HA,pa_41fc39ada3,2026-01-30,arXiv,paper,SYMPHONY: Synergistic Multi-agent Planning with Heterogeneous Language Model Assembly,http://arxiv.org/abs/2601.22623v1,"multi,adopt,infra,auton"
+HA,pa_c9f9a9b7ae,2024-04-27,arXiv,paper,Testing and Understanding Erroneous Planning in LLM Agents through Synthesized User Inputs,http://arxiv.org/abs/2404.17833v1,
