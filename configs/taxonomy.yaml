@@ -1,0 +1,126 @@
+# AI canon-event taxonomy v0  (owner: Harshita / HA)
+# STATUS: draft. Freeze as v1 after the pilot agreement meeting; changes after that go in docs/decisions.md.
+version: 0
+status: draft
+
+# Which documents count at all (see docs/annotation_guidelines.md section 2)
+scope_rule: >
+  In scope = a development in a language-model-based or agentic AI system (LLMs, LLM agents,
+  tool-using / computer-using / multi-agent LLM systems, agent frameworks and platforms),
+  plus language-model milestones that lead up to them. Classical reinforcement-learning,
+  robotics, traffic, wireless or game-AI work with no language-model component is OFF-TOPIC.
+
+has_event_values:
+  - "yes"                # the document reports a dated change that can be placed on the timeline
+  - no_not_significant   # patch/dependency bump, bug-fix-only release, survey, tutorial, opinion, policy essay
+  - no_off_topic         # outside scope_rule
+  - no_unclear_text      # too short/garbled to judge
+
+# Tie-break precedence when two categories fit: the FIRST listed wins.
+category_precedence:
+  - unexpected_behavior_incident
+  - multi_agent_coordination
+  - autonomous_action
+  - adoption_scale
+  - infrastructure_ecosystem
+  - agentic_development
+  - capability_breakthrough
+  - research_milestone
+
+categories:
+  - id: capability_breakthrough
+    name: Capability breakthrough
+    definition: A new or clearly improved single-model capability (reasoning, coding, planning, multimodal, tool-use ability).
+    include: [new model release with a stated new ability, benchmark jump presented as a new ability, new modality]
+    exclude: [capability only reached inside a full agent product -> agentic_development, pure research paper without a released system -> research_milestone]
+    default_phase: [1, 2]
+  - id: agentic_development
+    name: Agentic development
+    definition: A new AI agent, autonomous workflow, memory mechanism or multi-step task-execution system (single agent).
+    include: [agent product launch, planning+memory+tool loop, new agent framework feature that changes what an agent can do]
+    exclude: [agents acting with little human oversight in a real environment -> autonomous_action, several agents cooperating -> multi_agent_coordination]
+    default_phase: [3]
+  - id: multi_agent_coordination
+    name: Multi-agent coordination
+    definition: Several LLM-based agents communicate, delegate, collaborate or coordinate.
+    include: [agent-to-agent protocols, orchestration of agent teams, multi-agent frameworks]
+    exclude: [classical multi-agent RL without language models -> no_off_topic]
+    default_phase: [5]
+  - id: autonomous_action
+    name: Autonomous action
+    definition: An AI system acts in an environment with reduced human intervention (persistent or long-horizon tasks, own decisions).
+    include: [computer-use / browser agents running tasks end-to-end, long-running autonomous jobs, agents operating real services]
+    exclude: [single-step tool call with human driving each step -> capability_breakthrough or agentic_development]
+    default_phase: [4]
+  - id: unexpected_behavior_incident
+    name: Unexpected behavior / incident
+    definition: Behavior the designers did not anticipate, or a security/control/safety incident involving an AI system.
+    include: [documented incident, jailbreak or prompt-injection exploit of an agent, emergent coordination, reward hacking, loss of control]
+    exclude: [generic safety essays or policy statements with no concrete incident -> no_not_significant]
+    default_phase: [6]
+  - id: infrastructure_ecosystem
+    name: Infrastructure / ecosystem
+    definition: Platforms, APIs, protocols, compute or deployment infrastructure that agents are built on.
+    include: [API general availability, SDK/protocol launch (e.g. MCP), compute or distribution partnership, agent platform release]
+    exclude: [measured real-world usage -> adoption_scale]
+    default_phase: [7]
+  - id: adoption_scale
+    name: Adoption / scale
+    definition: Large-scale deployment or real-world use of AI systems or agents.
+    include: [user/customer numbers, enterprise rollout, programme launched to a population, deployment inside a product used at scale]
+    exclude: [a platform launch with no usage claim -> infrastructure_ecosystem]
+    default_phase: [7]
+  - id: research_milestone
+    name: Research milestone
+    definition: A research result (paper, benchmark, method) that materially changes what agents could do, without a released product.
+    include: [new method with strong evidence on agent tasks, new benchmark that redefines the target]
+    exclude: [incremental paper with no new capability -> no_not_significant]
+    default_phase: [1, 2, 3, 4, 5, 6, 7]   # depends on content
+
+# Phases (initial conceptual framework from the brief; to be validated on data). Annotators give phase_hint 1-7 only.
+phases:
+  1: {name: Language Models, concept: Text generation and understanding}
+  2: {name: Tool-Using AI, concept: AI uses external tools / APIs}
+  3: {name: AI Agents, concept: Multi-step tasks with planning and memory}
+  4: {name: Autonomous Agents, concept: Persistent, independent operation}
+  5: {name: Multi-Agent Systems, concept: Agents cooperate or coordinate}
+  6: {name: Emergent / Unexpected Behavior, concept: Behavior not anticipated by designers}
+  7: {name: Large-Scale Agent Ecosystems, concept: Agents across platforms and real environments}
+  8: {name: Emerging Next Phase, concept: Model-derived only - never assigned by an annotator}
+
+# Scales shared with Saketh (schema.py must use the same values)
+autonomy_level:
+  0: No autonomy - static model output only
+  1: Assisted - one tool/API call per user request; human drives each step
+  2: Supervised multi-step - plans and runs several steps; human approves or steers
+  3: Autonomous task - completes a whole task end-to-end with minimal human input
+  4: Self-directed / persistent - runs continuously, sets sub-goals, operates in open environments or with other agents
+  NA: Not applicable / cannot be judged
+
+interaction:
+  - human_model
+  - human_agent
+  - agent_tool
+  - agent_agent
+  - agent_environment
+  - ecosystem            # many agents/users/platforms
+
+capability_tags:         # one PRIMARY tag per event
+  - text_generation
+  - reasoning
+  - coding
+  - multimodal
+  - tool_use
+  - planning
+  - memory
+  - computer_use
+  - multi_agent_coordination
+  - safety_control
+  - infrastructure
+  - evaluation_benchmark
+  - other
+
+confidence:
+  1: Unsure - would not be surprised if a teammate disagreed
+  2: Fairly sure
+  3: Certain

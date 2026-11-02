@@ -1,45 +1,81 @@
-import json, glob, hashlib, re, collections
+"""Merge raw collections into data/interim/corpus_v1.jsonl.  PYTHONPATH=src python -m ainevo.preprocessing.build_corpus"""
+import collections, glob, hashlib, json, os, re
 
 KEYWORDS = re.compile(
     r"agent|tool use|function call|autonom|multi-agent|computer use|"
     r"assistant|chatgpt|gpt|operator|codex|reasoning|browse|"
     r"plugin|mcp|workflow|copilot|robot|safety|incident|model", re.I)
 
-OPENAI_CAP_PER_YEAR = 120
+OPENAI_CAP_PER_MONTH = 15      # was 120 per YEAR, which kept the earliest posts and dropped the end of each year
+RELEASE_CAP_PER_REPO_MONTH = 8  # keeps one busy repo (langchain) from dominating the corpus
+POOL = "data/annotations/pool_v0.json"   # documents already given to annotators are never dropped
 OUT = "data/interim/corpus_v1.jsonl"
 
-docs, seen_urls = [], set()
-for path in glob.glob("data/raw/**/*.jsonl", recursive=True):
-    for line in open(path, encoding="utf-8"):
-        d = json.loads(line)
-        url = d["url"]
-        if url in seen_urls:
-            continue
-        seen_urls.add(url)
-        d["doc_id"] = d["source_type"][:2] + "_" + hashlib.md5(url.encode()).hexdigest()[:10]
-        d["text"] = re.sub(r"\s+", " ", d["text"]).strip()
-        docs.append(d)
 
-# keep agent-related lab blog posts only
-docs = [d for d in docs
-        if d["source_type"] != "lab_blog"
-        or KEYWORDS.search(d["title"] + " " + d["text"][:500])]
+def merge_raw(paths):
+    docs, seen = [], set()
+    for path in paths:
+        for line in open(path, encoding="utf-8"):
+            d = json.loads(line)
+            if d["url"] in seen:
+                continue
+            seen.add(d["url"])
+            d["doc_id"] = d["source_type"][:2] + "_" + hashlib.md5(d["url"].encode()).hexdigest()[:10]
+            d["text"] = re.sub(r"\s+", " ", d["text"]).strip()
+            docs.append(d)
+    return docs
 
-# cap OpenAI posts per year
-count, final = collections.Counter(), []
-for d in sorted(docs, key=lambda x: x["publication_date"]):
-    if d["source"] == "OpenAI":
-        key = d["publication_date"][:4]
-        if count[key] >= OPENAI_CAP_PER_YEAR:
-            continue
-        count[key] += 1
-    final.append(d)
 
-with open(OUT, "w", encoding="utf-8") as f:
-    for d in final:
-        f.write(json.dumps(d, ensure_ascii=False) + "\n")
+def keep_agent_related(docs):
+    return [d for d in docs if d["source_type"] != "lab_blog" or KEYWORDS.search(d["title"] + " " + d["text"][:500])]
 
-by = collections.Counter(d["publication_date"][:4] for d in final)
-print("total", len(final))
-for y in sorted(by):
-    print(y, by[y])
+
+def cap_openai_per_month(docs, cap=OPENAI_CAP_PER_MONTH):
+    count, final = collections.Counter(), []
+    for d in sorted(docs, key=lambda x: x["publication_date"]):
+        if d["source"] == "OpenAI":
+            key = d["publication_date"][:7]
+            if count[key] >= cap:
+                continue
+            count[key] += 1
+        final.append(d)
+    return final
+
+
+def cap_release_notes(docs, cap=RELEASE_CAP_PER_REPO_MONTH):
+    """Keep the `cap` longest release notes per repo per month."""
+    groups, rest = collections.defaultdict(list), []
+    for d in docs:
+        if d["source_type"] == "release_notes":
+            groups[(d["source"], d["publication_date"][:7])].append(d)
+        else:
+            rest.append(d)
+    kept = [d for g in groups.values() for d in sorted(g, key=lambda x: -len(x["text"]))[:cap]]
+    return sorted(rest + kept, key=lambda x: x["publication_date"])
+
+
+def protected_ids(path=POOL):
+    if not os.path.exists(path):
+        return set()
+    pool = json.load(open(path, encoding="utf-8"))
+    return {d["doc_id"] for docs in pool.values() for d in docs}
+
+
+def build(docs, protected=frozenset()):
+    """Apply filters and caps; documents in `protected` bypass them (months may exceed a cap by a few)."""
+    keep = [d for d in docs if d["doc_id"] in protected]
+    rest = [d for d in docs if d["doc_id"] not in protected]
+    out = cap_release_notes(cap_openai_per_month(keep_agent_related(rest))) + keep
+    return sorted(out, key=lambda x: x["publication_date"])
+
+
+if __name__ == "__main__":
+    paths = sorted(glob.glob("data/raw/**/*.jsonl", recursive=True))
+    final = build(merge_raw(paths), protected_ids())
+    with open(OUT, "w", encoding="utf-8") as f:
+        for d in final:
+            f.write(json.dumps(d, ensure_ascii=False) + "\n")
+    by = collections.Counter(d["publication_date"][:4] for d in final)
+    print("total", len(final))
+    for y in sorted(by):
+        print(y, by[y])

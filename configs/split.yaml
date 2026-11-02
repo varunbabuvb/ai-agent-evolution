@@ -1,0 +1,31 @@
+# Forecasting split v0 (owner: Harshita / HA). PROVISIONAL until corpus freeze.
+# Rule: set `locked: true` on the corpus-freeze day; never move the cutoff afterwards.
+locked: false
+frequency: monthly
+series_start: 2022-01
+cutoff_month: 2026-09        # last COMPLETE month; corpus_v1 contains 29 docs dated Oct 2026 -> excluded
+long_timeline:
+  quarterly: [2017-01, 2021-12]   # description / change-point only
+  monthly:   [2022-01, 2026-09]
+blocks:
+  train:      [2022-01, 2024-06]   # 30 months: fit models, scalers, clusters, feature statistics
+  validation: [2024-07, 2024-12]   # 6 months: choose settings and final model
+  test:       [2025-01, 2026-09]   # 21 months: touched ONCE at the end
+target:
+  main: dominant_category_next_month
+  definition: The category with the most normalised events in month t+1.
+  min_events_per_month: 3          # months below this get NO label (not scored); revisit after the event DB exists
+  tie_break: taxonomy.category_precedence
+  optional_extra: null             # (a) emerging-phase indicator or (b) ADI - decide at the end of Week 2
+rules:
+  features_use_only_events_dated_up_to_t: true
+  fit_transformers_on_train_only: true
+  evaluation: rolling_origin       # learn months <= t, predict t+1, advance one month
+  report_by: [year, source_type]
+  primary_metric: macro_f1
+  also_report: [accuracy, per_class_precision_recall]
+  baselines: [persistence, most_frequent, moving_average_trend]
+classifier_holdout:                # event classifier only (not the forecast)
+  gold_fraction: 0.20
+  random_state: 42
+seed: 42

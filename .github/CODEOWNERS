@@ -1,0 +1,15 @@
+# Folder -> reviewer. Replace each TODO with the real GitHub username (one per person), then remove the leading '#'.
+# /src/ainevo/collection/        @TODO-varun   (reviewer: Saketh)
+# /src/ainevo/preprocessing/     @TODO-varun
+# /app/                          @TODO-varun
+# /src/ainevo/extraction/        @TODO-harsha  (reviewer: Harshita)
+# /src/ainevo/classification/    @TODO-harsha
+# /src/ainevo/schema.py          @TODO-saketh  (any change needs approval from all four)
+# /src/ainevo/normalization/     @TODO-saketh
+# /src/ainevo/features/          @TODO-saketh
+# /src/ainevo/analysis/          @TODO-saketh
+# /src/ainevo/forecasting/       @TODO-harshita (reviewer: Varun)
+# /src/ainevo/evaluation/        @TODO-harshita
+# /configs/taxonomy.yaml         @TODO-harshita
+# /configs/split.yaml            @TODO-harshita
+# /data/annotations/             @TODO-harshita

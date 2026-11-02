@@ -1,8 +1,18 @@
+PY=PYTHONPATH=src python
+
+.PHONY: data pipeline forecast app test
+
 data:
-python scripts/run_collection.py
+	$(PY) scripts/run_collection.py
+
 pipeline:
-python scripts/run_pipeline.py
+	$(PY) scripts/run_pipeline.py
+
 forecast:
-python scripts/run_forecast.py
+	$(PY) scripts/run_forecast.py
+
 app:
-streamlit run app/streamlit_app.py
+	streamlit run app/streamlit_app.py
+
+test:
+	PYTHONPATH=src python -m pytest -q tests
