@@ -1,15 +1,14 @@
-# Folder -> reviewer. Replace each TODO with the real GitHub username (one per person), then remove the leading '#'.
-# /src/ainevo/collection/        @TODO-varun   (reviewer: Saketh)
-# /src/ainevo/preprocessing/     @TODO-varun
-# /app/                          @TODO-varun
-# /src/ainevo/extraction/        @TODO-harsha  (reviewer: Harshita)
-# /src/ainevo/classification/    @TODO-harsha
-# /src/ainevo/schema.py          @TODO-saketh  (any change needs approval from all four)
-# /src/ainevo/normalization/     @TODO-saketh
-# /src/ainevo/features/          @TODO-saketh
-# /src/ainevo/analysis/          @TODO-saketh
-# /src/ainevo/forecasting/       @TODO-harshita (reviewer: Varun)
-# /src/ainevo/evaluation/        @TODO-harshita
-# /configs/taxonomy.yaml         @TODO-harshita
-# /configs/split.yaml            @TODO-harshita
-# /data/annotations/             @TODO-harshita
+/src/ainevo/collection/        @varunbabuvb
+/src/ainevo/preprocessing/     @varunbabuvb
+/app/                          @varunbabuvb
+/src/ainevo/extraction/        @sriharsha-47
+/src/ainevo/classification/    @sriharsha-47
+/src/ainevo/schema.py          @Sakethram2005
+/src/ainevo/normalization/     @Sakethram2005
+/src/ainevo/features/          @Sakethram2005
+/src/ainevo/analysis/          @Sakethram2005
+/src/ainevo/forecasting/       @harshitaagrawalIT123
+/src/ainevo/evaluation/        @harshitaagrawalIT123
+/configs/taxonomy.yaml         @harshitaagrawalIT123
+/configs/split.yaml            @harshitaagrawalIT123
+/data/annotations/             @harshitaagrawalIT123
