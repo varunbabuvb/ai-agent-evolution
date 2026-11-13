@@ -1,0 +1,25 @@
+﻿
+documents: 3018
+year       lab_blog          paper  release_notes   total
+2017             27             41              0      68
+2018             18             42              0      60
+2019             18             41              0      59
+2020             16             42              0      58
+2021             43             42              0      85
+2022             92             82              0     174
+2023            161            153            135     449
+2024            225            192            176     593
+2025            337            195            222     754
+2026            371            154            193     718
+
+per source: arXiv 984, OpenAI 613, Hugging Face 434, langchain-ai/langchain 341, crewAIInc/crewAI 175, Anthropic 149, Significant-Gravitas/AutoGPT 115, microsoft/autogen 95, Google DeepMind 61, Google Research 51
+
+events: 224
+  gold       multi_agent_coordination       58
+  gold       agentic_development            45
+  gold       research_milestone             32
+  gold       capability_breakthrough        29
+  gold       infrastructure_ecosystem       26
+  gold       adoption_scale                 15
+  gold       unexpected_behavior_incident   12
+  gold       autonomous_action              7

@@ -49,3 +49,37 @@ Flags: 72 low-signal release notes; 1077 documents with no LLM/agent-era term (m
 ## Checksums (sha256)
 - corpus_v1.jsonl (raw merge, as received): `1b8a8fa73b52ea8a391466100772cba2c84d43ec860432affcc74c89bfb1db2c`
 - corpus_v1_clean.jsonl: `62fb8ac193a29c07a0ec84dd19cdddccffa96270374d76d52ddd7abc1ee57448`
+
+## Corpus v1 (frozen candidate)
+
+File: data/interim/corpus_v1_clean.jsonl (not committed; share through the common drive)
+SHA256: 48d3d61e15963f13a78a3b7e030d7882fa9b4a75e3ce3d4b78d2560208a88b09
+Documents: 3,018 (papers 984, lab_blog 1,308, release_notes 726), 2017 to Sep 2026.
+News and incident documents are collected separately (Saketh) and are not in this file.
+
+| year | lab_blog | paper | release_notes | total |
+|------|----------|-------|---------------|-------|
+| 2017 | 27 | 41 | 0 | 68 |
+| 2018 | 18 | 42 | 0 | 60 |
+| 2019 | 18 | 41 | 0 | 59 |
+| 2020 | 16 | 42 | 0 | 58 |
+| 2021 | 43 | 42 | 0 | 85 |
+| 2022 | 92 | 82 | 0 | 174 |
+| 2023 | 161 | 153 | 135 | 449 |
+| 2024 | 225 | 192 | 176 | 593 |
+| 2025 | 337 | 195 | 222 | 754 |
+| 2026 | 371 | 154 | 193 | 718 |
+
+Top sources: arXiv 984, OpenAI 613, Hugging Face 434, langchain-ai/langchain 341, crewAIInc/crewAI 175,
+Anthropic 149, AutoGPT 115, microsoft/autogen 95, Google DeepMind 61, Google Research 51.
+
+Known gaps: 2017 to 2021 are below the planned 80 documents per year, 2022 is far below 350,
+there are no Meta, Mistral, DeepSeek or Qwen sources, and Microsoft Research has only 10 documents.
+Documents dated October 2026 are excluded from forecasting by the cutoff in configs/split.yaml.
+Caps used in cleaning: OpenAI 15 per month, Hugging Face 8 per month, release notes 8 per repo per month.
+
+## Event database
+
+Built by `py -3.13 scripts/build_db.py --events data/annotations/gold_events_v1.csv` into
+data/processed/events.db (git-ignored). Current contents: 3,018 documents and 224 gold events.
+Full counts are in docs/corpus_report.txt.

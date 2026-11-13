@@ -11,3 +11,7 @@ Format: ID · date · decision · reason · owner · approved by.
 - **D-005 · 2026-11-01 · Cleaning adds advisory flags instead of deleting** (`low_signal_release`, `llm_terms_found` in `metadata`). Reason: deleting by keyword would silently change the corpus; downstream steps can filter. Owner: Varun (review: HA).
 - **D-006 · 2026-11-01 · OpenAI cap is per month (15), not per year (120).** Reason: the per-year cap kept the earliest posts and removed the end of 2025 and the months after Apr 2026, which fall in the forecasting test block. Owner: Varun.
 - **D-007 · 2026-11-01 · Annotation pool is drawn from `corpus_v1_clean.jsonl`** (replaces the raw file used in D-003). `doc_id` is md5(url), so labels stay valid if the corpus is re-collected. Owner: HA.
+
+D-008 (VV, 13 Nov 2026): Corpus and event database live in src/ainevo/storage and data/processed/events.db
+(SQLite, rebuilt by scripts/build_db.py, git-ignored). Allowed category, capability and interaction values
+are read from configs/taxonomy.yaml. Corpus candidate sha256 48d3d61e...88b09 (3,018 documents).
