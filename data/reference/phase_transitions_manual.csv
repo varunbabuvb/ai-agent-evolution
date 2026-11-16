@@ -1,0 +1,7 @@
+phase,phase_name,landmark_event,landmark_window_start,landmark_window_end,sustained_from_quarter,evidence_in_gold,confidence,notes
+2,Tool-using AI,ChatGPT plugins,2023-03,2023-03,none (max 2 gold events per quarter),"gold has only 9 phase-2 events; first on 2023-03-23",low,"thin evidence; treat as a marker date"
+3,AI agents,AutoGPT and early agent frameworks,2023-03,2023-04,2023-Q3,"first gold phase-3 event 2023-04-15; 5 events in 2023-Q3",medium,"gold entry is the v0.2.0 release; the project appeared a few weeks earlier"
+4,Autonomous agents,computer-use and end-to-end autonomous agents,2024-10,2024-11,2024-Q4,"3 gold events in 2024-Q4; an isolated early example in 2023-04",low,"landmark dates (Anthropic computer use Oct 2024, OpenAI Operator Jan 2025) to be checked against corpus sources"
+5,Multi-agent systems,AgentVerse and similar multi-agent frameworks,2023-08,2023-08,2023-Q4,"first gold event 2023-08-21; 5 events in 2023-Q4",medium,""
+6,Emergent / unexpected behaviour,agent security and incident studies,2024-07,2024-10,2025-Q4,"first gold event 2024-07-30; 4 events only in 2025-Q4",low,"first appearance is not a transition; frequent only from late 2025"
+7,Large-scale agent ecosystems,platform and enterprise-scale deployment,2025-07,2026-03,2026-Q1,"12 gold events in 2026-Q1; earlier phase-7 events are scattered release notes and partnerships",low,"gradual rise, give a window not a date"

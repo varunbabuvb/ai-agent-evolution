@@ -1,0 +1,3 @@
+event_group,event_id,doc_id,annotator,date,organization,model_agent,category,title
+131,GE-0132,la_0e7e4c7589,HA,2025-10-01,OpenAI,OpenAI models,unexpected_behavior_incident,Cyber Operation: Russian-speaking malware tooling
+131,GE-0133,la_898bd56772,HA,2025-10-01,OpenAI,OpenAI models,unexpected_behavior_incident,Cyber Operation: Phishing and scripting support

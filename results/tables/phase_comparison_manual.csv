@@ -1,0 +1,25 @@
+variant,phase,window,sustained_from,confidence,nearest_break,gap_to_window,gap_to_sustained,verdict
+gold,2,2023-03..2023-03,,low,2023-07,4,,no match
+gold,3,2023-03..2023-04,2023-07,medium,2023-07,3,0.0,within +/-3
+gold,4,2024-10..2024-11,2024-10,low,2023-07,-15,-15.0,no match
+gold,5,2023-08..2023-08,2023-10,medium,2023-07,-1,-3.0,within +/-3
+gold,6,2024-07..2024-10,2025-10,low,2023-07,-12,-27.0,no match
+gold,7,2025-07..2026-03,2026-01,low,2023-07,-24,-30.0,no match
+gold_shares,2,2023-03..2023-03,,low,2023-11,8,,no match
+gold_shares,3,2023-03..2023-04,2023-07,medium,2023-11,7,4.0,no match
+gold_shares,4,2024-10..2024-11,2024-10,low,2023-11,-11,-11.0,no match
+gold_shares,5,2023-08..2023-08,2023-10,medium,2023-11,3,1.0,within +/-3
+gold_shares,6,2024-07..2024-10,2025-10,low,2023-11,-8,-23.0,no match
+gold_shares,7,2025-07..2026-03,2026-01,low,2023-11,-20,-26.0,no match
+combined,2,2023-03..2023-03,,low,2023-04,1,,within +/-3
+combined,3,2023-03..2023-04,2023-07,medium,2023-04,0,-3.0,within +/-3
+combined,4,2024-10..2024-11,2024-10,low,2023-04,-18,-18.0,no match
+combined,5,2023-08..2023-08,2023-10,medium,2023-04,-4,-6.0,no match
+combined,6,2024-07..2024-10,2025-10,low,2023-04,-15,-30.0,no match
+combined,7,2025-07..2026-03,2026-01,low,2023-04,-27,-33.0,no match
+combined_shares,2,2023-03..2023-03,,low,2023-04,1,,within +/-3
+combined_shares,3,2023-03..2023-04,2023-07,medium,2023-04,0,-3.0,within +/-3
+combined_shares,4,2024-10..2024-11,2024-10,low,2023-04,-18,-18.0,no match
+combined_shares,5,2023-08..2023-08,2023-10,medium,2023-04,-4,-6.0,no match
+combined_shares,6,2024-07..2024-10,2025-10,low,2023-04,-15,-30.0,no match
+combined_shares,7,2025-07..2026-03,2026-01,low,2023-04,-27,-33.0,no match

@@ -1,0 +1,22 @@
+event_group,doc_id,origin,date,source,organization,model_agent,category,title
+68,la_d1ef13e1c3,extracted,2023-03-14,OpenAI,OpenAI,GPT-4,capability_breakthrough,GPT-4
+68,la_cf00b7ae1f,gold,2023-03-14,OpenAI,OpenAI,GPT-4,capability_breakthrough,GPT-4
+277,la_167dd7d350,extracted,2024-05-13,OpenAI,OpenAI,GPT-4o,capability_breakthrough,Hello GPT-4o
+277,la_c486538cb1,gold,2024-05-13,OpenAI,OpenAI,GPT-4o,capability_breakthrough,Introducing GPT-4o and more tools to ChatGPT free users
+449,la_ae4e64fe96,extracted,2025-01-31,OpenAI,OpenAI,o3-mini,capability_breakthrough,OpenAI o3-mini
+449,la_31735f0995,extracted,2025-01-31,OpenAI,OpenAI,o3-mini,capability_breakthrough,OpenAI o3-mini System Card
+598,la_720bc499a8,extracted,2025-08-05,OpenAI,OpenAI,,capability_breakthrough,gpt-oss-120b & gpt-oss-20b Model Card
+598,la_0e877327bc,gold,2025-08-05,OpenAI,OpenAI,gpt-oss-120b / gpt-oss-20b,capability_breakthrough,Introducing gpt-oss
+607,la_3d45d3872d,extracted,2025-08-07,OpenAI,OpenAI,GPT-5,capability_breakthrough,Introducing GPT-5 for developers
+607,la_3712dd3d94,extracted,2025-08-07,OpenAI,OpenAI,GPT-5,adoption_scale,GPT-5 and the new era of work
+607,la_be4f46528b,extracted,2025-08-07,OpenAI,OpenAI,GPT-5,capability_breakthrough,Introducing GPT-5
+607,la_a8eaf9f821,gold,2025-08-07,OpenAI,OpenAI,GPT-5,capability_breakthrough,GPT-5 System Card
+709,la_36ade2f70c,extracted,2025-11-12,OpenAI,OpenAI,GPT-5.1,capability_breakthrough,GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum
+709,la_9cbe22667b,extracted,2025-11-12,OpenAI,OpenAI,GPT-5.1,capability_breakthrough,"GPT-5.1: A smarter, more conversational ChatGPT"
+709,la_c78557dbda,extracted,2025-11-13,OpenAI,OpenAI,GPT-5.1,capability_breakthrough,Introducing GPT-5.1 for developers
+822,la_c714f23bce,extracted,2026-02-05,OpenAI,OpenAI,GPT-5.3,capability_breakthrough,GPT-5.3-Codex System Card
+822,la_51498c9b8b,extracted,2026-02-05,OpenAI,OpenAI,GPT-5.3,capability_breakthrough,Introducing GPT-5.3-Codex
+854,la_7535c2f2ce,extracted,2026-03-05,OpenAI,OpenAI,GPT-5.4,capability_breakthrough,GPT-5.4 Thinking System Card
+854,la_11c2367d72,extracted,2026-03-05,OpenAI,OpenAI,GPT-5.4,capability_breakthrough,Introducing GPT-5.4
+989,la_a9ac60dc9f,extracted,2026-07-09,OpenAI,OpenAI; Microsoft,GPT-5.6,infrastructure_ecosystem,GPT-5.6 is now the preferred model in Microsoft 365 Copilot
+989,la_6e3eba7a17,extracted,2026-07-09,OpenAI,OpenAI,GPT-5.6,capability_breakthrough,GPT-5.6: Frontier intelligence that scales with your ambition

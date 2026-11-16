@@ -1,0 +1,72 @@
+event_group,doc_id,date,source,organization,model_agent,category,title
+437,la_3f527fa155,2023-03-14,OpenAI,OpenAI,GPT‑4,capability_breakthrough,Filling crucial language learning gaps
+437,la_4eb3f5bc86,2023-03-14,OpenAI,OpenAI,GPT‑4,infrastructure_ecosystem,Powering virtual education for the classroom
+437,la_b3c3d7bf0e,2023-03-14,OpenAI,OpenAI,GPT‑4,capability_breakthrough,Transforming visual accessibility
+437,la_cf00b7ae1f,2023-03-14,OpenAI,OpenAI,GPT-4,capability_breakthrough,GPT-4
+437,la_d1ef13e1c3,2023-03-14,OpenAI,OpenAI,GPT-4,capability_breakthrough,GPT-4
+546,la_4e5e47b514,2023-08-22,OpenAI,OpenAI,GPT-3.5 Turbo,capability_breakthrough,GPT-3.5 Turbo fine-tuning and API updates
+546,la_bf831b3dd7,2023-08-24,OpenAI,OpenAI,GPT‑3.5 Turbo,infrastructure_ecosystem,OpenAI partners with Scale to provide support for enterprises fine-tuning models
+559,pa_1620f9b5d6,2023-09-05,arXiv,,GPT-4,multi_agent_coordination,"On the Planning, Search, and Memorization Capabilities of Large Language Models"
+559,pa_e82efeaf7e,2023-09-07,arXiv,,GPT-4,multi_agent_coordination,Enhancing Pipeline-Based Conversational Agents with Large Language Models
+763,la_58f9a819d1,2024-03-13,Anthropic,Anthropic,Claude 3,capability_breakthrough,Claude 3 Haiku: our fastest model yet
+763,la_32b3982a86,2024-03-19,Anthropic,Anthropic,Claude 3,infrastructure_ecosystem,Claude 3 models on Vertex AI
+835,la_167dd7d350,2024-05-13,OpenAI,OpenAI,GPT-4o,capability_breakthrough,Hello GPT-4o
+835,la_37b3af7433,2024-05-13,OpenAI,OpenAI,ChatGPT,capability_breakthrough,Spring Update
+835,la_c486538cb1,2024-05-13,OpenAI,OpenAI,GPT-4o,capability_breakthrough,Introducing GPT-4o and more tools to ChatGPT free users
+963,la_1f2073a649,2024-09-12,OpenAI,OpenAI,ChatGPT,capability_breakthrough,Decoding genetics with OpenAI o1
+963,la_63c69efcdd,2024-09-12,OpenAI,OpenAI,ChatGPT,infrastructure_ecosystem,Coding with OpenAI o1
+963,la_7557c7876c,2024-09-12,OpenAI,OpenAI,ChatGPT,capability_breakthrough,Economics and reasoning with OpenAI o1
+963,la_e3698aa8db,2024-09-12,OpenAI,OpenAI,ChatGPT,capability_breakthrough,OpenAI o1-mini
+975,la_d8ad341cbe,2024-09-24,OpenAI,OpenAI,GPT-4o,adoption_scale,"Introducing Verdi, an AI dev platform powered by GPT-4o"
+975,la_621811037f,2024-09-26,OpenAI,OpenAI,GPT‑4o,capability_breakthrough,Upgrading the Moderation API with our new multimodal moderation model
+975,la_ac5e883b08,2024-09-26,OpenAI,OpenAI,ChatGPT,research_milestone,Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps
+975,la_8033ab1184,2024-10-01,OpenAI,OpenAI,GPT‑4o,capability_breakthrough,Model Distillation in the API
+975,la_99cd81bd5b,2024-10-01,OpenAI,OpenAI,GPT‑4o,research_milestone,Creating agent and human collaboration with GPT 4o
+975,la_f2ef282daa,2024-10-01,OpenAI,OpenAI,GPT‑4o,capability_breakthrough,Introducing vision to the fine-tuning API
+1014,la_25ba94e565,2024-10-22,Anthropic,Anthropic,Claude 3.5,capability_breakthrough,"Computer use, Claude 3.5 Sonnet, and Claude 3.5 Haiku"
+1014,la_227bffb718,2024-10-29,Anthropic,Anthropic,Claude 3.5,capability_breakthrough,Claude 3.5 Sonnet on GitHub Copilot
+1063,la_3af64bc05c,2024-12-09,OpenAI,OpenAI,Sora,capability_breakthrough,Sora System Card
+1063,la_e549c1f7bc,2024-12-09,OpenAI,OpenAI,Sora,capability_breakthrough,Sora is here
+1143,la_9fa866bc24,2025-02-24,Anthropic,Anthropic,Claude 3.7,capability_breakthrough,Claude 3.7 Sonnet and Claude Code
+1143,la_5614477f5e,2025-02-28,Anthropic,Anthropic,Claude 3.7,infrastructure_ecosystem,"Anthropic joins the 1,000 Scientist AI Jam"
+1207,la_30e5625886,2025-04-08,OpenAI,OpenAI,ChatGPT,adoption_scale,Writing with canvas in ChatGPT
+1207,la_5de1506f1f,2025-04-13,OpenAI,OpenAI,ChatGPT,adoption_scale,Prototyping with canvas in ChatGPT
+1209,la_7fbf37a374,2025-04-08,OpenAI,OpenAI,ChatGPT,adoption_scale,Strategic planning with ChatGPT
+1209,la_61dadb911d,2025-04-13,OpenAI,OpenAI,ChatGPT,adoption_scale,Market research with ChatGPT
+1232,la_af923cc3f5,2025-05-02,OpenAI,OpenAI,GPT‑4o,capability_breakthrough,Expanding on what we missed with sycophancy
+1232,la_497b034d57,2025-05-08,OpenAI,OpenAI,GPT-4o,multi_agent_coordination,Collaborate and write with GPT-4o
+1246,la_09eb7ecc11,2025-05-16,OpenAI,OpenAI,o4-mini,autonomous_action,Addendum to o3 and o4-mini system card: Codex
+1246,la_26be9a3f2e,2025-05-23,OpenAI,OpenAI,o4-mini,capability_breakthrough,Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator
+1349,la_0e877327bc,2025-08-05,OpenAI,OpenAI,,capability_breakthrough,Introducing gpt-oss
+1349,la_720bc499a8,2025-08-05,OpenAI,OpenAI,,capability_breakthrough,gpt-oss-120b & gpt-oss-20b Model Card
+1361,la_3712dd3d94,2025-08-07,OpenAI,OpenAI,GPT-5,adoption_scale,GPT-5 and the new era of work
+1361,la_3d45d3872d,2025-08-07,OpenAI,OpenAI,GPT-5,capability_breakthrough,Introducing GPT-5 for developers
+1361,la_a8eaf9f821,2025-08-07,OpenAI,OpenAI,GPT-5,capability_breakthrough,GPT-5 System Card
+1361,la_bca26dfdf1,2025-08-07,OpenAI,OpenAI,GPT‑5,capability_breakthrough,From hard refusals to safe-completions: toward output-centric safety training
+1361,la_be4f46528b,2025-08-07,OpenAI,OpenAI,GPT-5,capability_breakthrough,Introducing GPT-5
+1361,la_f0dc0a83b7,2025-08-07,OpenAI,OpenAI,GPT-5,capability_breakthrough,GPT-5: Our best model for work
+1487,la_c4aeff990b,2025-10-28,Hugging Face,Hugging Face,,multi_agent_coordination,How to Build a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac for Healthcare
+1487,la_c18db287fa,2025-10-29,Hugging Face,Hugging Face,,multi_agent_coordination,Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac
+1506,la_36ade2f70c,2025-11-12,OpenAI,OpenAI,GPT-5.1,capability_breakthrough,GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum
+1506,la_9cbe22667b,2025-11-12,OpenAI,OpenAI,GPT-5.1,capability_breakthrough,"GPT-5.1: A smarter, more conversational ChatGPT"
+1506,la_c78557dbda,2025-11-13,OpenAI,OpenAI,GPT-5.1,capability_breakthrough,Introducing GPT-5.1 for developers
+1674,la_51498c9b8b,2026-02-05,OpenAI,OpenAI,GPT-5.3,capability_breakthrough,Introducing GPT-5.3-Codex
+1674,la_c714f23bce,2026-02-05,OpenAI,OpenAI,GPT-5.3,capability_breakthrough,GPT-5.3-Codex System Card
+1717,la_863e8c3909,2026-03-03,OpenAI,OpenAI,GPT-5.3,capability_breakthrough,GPT-5.3 Instant System Card
+1717,la_ce65eb1e36,2026-03-03,OpenAI,OpenAI,GPT-5.3,capability_breakthrough,"GPT-5.3 Instant: Smoother, more useful everyday conversations"
+1722,la_11c2367d72,2026-03-05,OpenAI,OpenAI,GPT-5.4,capability_breakthrough,Introducing GPT-5.4
+1722,la_7535c2f2ce,2026-03-05,OpenAI,OpenAI,GPT-5.4,capability_breakthrough,GPT-5.4 Thinking System Card
+1836,la_05d3c5cd4c,2026-05-05,OpenAI,OpenAI,GPT-5.5,capability_breakthrough,"GPT-5.5 Instant: smarter, clearer, and more personalized"
+1836,la_2fd4f4a9ab,2026-05-05,OpenAI,OpenAI,GPT-5.5,capability_breakthrough,GPT-5.5 Instant System Card
+1836,la_6a3f232352,2026-05-07,OpenAI,OpenAI,GPT-5.5,infrastructure_ecosystem,Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
+1953,la_6e3eba7a17,2026-07-09,OpenAI,OpenAI,GPT-5.6,capability_breakthrough,GPT-5.6: Frontier intelligence that scales with your ambition
+1953,la_a9ac60dc9f,2026-07-09,OpenAI,OpenAI,GPT-5.6,infrastructure_ecosystem,GPT-5.6 is now the preferred model in Microsoft 365 Copilot
+1960,la_28084c86d2,2026-07-14,OpenAI,OpenAI,ChatGPT,adoption_scale,Data science workflows with ChatGPT Work
+1960,la_2ecd9aa6ff,2026-07-14,OpenAI,OpenAI,ChatGPT,adoption_scale,Sales workflows with ChatGPT Work
+1995,la_e1775d8d2e,2026-08-06,OpenAI,OpenAI,GPT‑5.6,capability_breakthrough,Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users
+1995,la_52b9c6e06b,2026-08-10,OpenAI,OpenAI,GPT-5.6,adoption_scale,Model ML completes finance work more efficiently with GPT-5.6 Sol
+1995,la_d570d27061,2026-08-10,OpenAI,OpenAI,GPT‑5.6,capability_breakthrough,Expanding Daybreak as the Cyber Defense Window Narrows
+2054,la_8b954ea26b,2026-09-03,OpenAI,OpenAI,GPT-6,capability_breakthrough,GPT-6 Astra: A new generation of intelligence
+2054,la_9a8f1e3af0,2026-09-03,OpenAI,OpenAI,GPT-6,adoption_scale,Playco cut manual fixes 50% prototyping games with GPT-6 Astra
+2054,la_af3b8492ca,2026-09-03,OpenAI,OpenAI,GPT-6,capability_breakthrough,Safety overview: GPT-6 Astra
+2054,la_d54e7a3a2a,2026-09-03,OpenAI,OpenAI,GPT-6,adoption_scale,Legora reviewed 41 documents in minutes with GPT-6 Astra

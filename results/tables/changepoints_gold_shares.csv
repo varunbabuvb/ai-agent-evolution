@@ -1,0 +1,3 @@
+segment,start,end,months,mean_n_events,mean_entropy,mean_multi_agent_share,mean_incident_share,mean_autonomy
+1,2022-01,2023-10,22,1.045,0.091,0.041,0.0,1.068
+2,2023-11,2026-09,35,5.2,0.511,0.304,0.032,2.164
