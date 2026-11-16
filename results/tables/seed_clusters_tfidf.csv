@@ -1,0 +1,103 @@
+cluster,event_id,date,organization,model_agent,category
+0,ev_9144993286,2025-01-21,OpenAI; SoftBank; Oracle; MGX,Stargate Project,infrastructure_ecosystem
+1,ev_eaf5ed7eee,2025-09-10,OpenAI; Oracle,OpenAI-Oracle cloud contract,infrastructure_ecosystem
+2,ev_095ce2ec7f,2025-03-10,ServiceNow,Moveworks acquisition,infrastructure_ecosystem
+3,ev_4235eb8375,2025-05-13,AWS; HUMAIN,AWS-HUMAIN AI infrastructure deal,infrastructure_ecosystem
+4,ev_4ee7978447,2024-12-05,OpenAI,o1,capability_breakthrough
+5,ev_4c4c331a2c,2024-12-20,OpenAI,o3,capability_breakthrough
+6,ev_6796381f33,2024-12-24,DeepSeek,DeepSeek-V3,capability_breakthrough
+6,ev_b1ecdf0efd,2025-01-20,DeepSeek,DeepSeek-R1,capability_breakthrough
+6,ev_0b7b56e0b2,2026-04-24,DeepSeek,DeepSeek-V4-Pro,capability_breakthrough
+7,ev_8072ac3f86,2025-01-27,DeepSeek,DeepSeek app,adoption_scale
+8,ev_9f5d80cc45,2019-09-17,Nvidia,Megatron-LM (8.3B),research_milestone
+8,ev_a7dd83926a,2021-10-11,Microsoft,Megatron-Turing NLG 530B,research_milestone
+9,ev_8ce9a11793,2021-12-08,DeepMind,Gopher (280B),research_milestone
+9,ev_c11704f308,2022-03-29,DeepMind,Chinchilla,research_milestone
+9,ev_de7e837d5c,2022-04-29,DeepMind,Flamingo,research_milestone
+10,ev_d5905d5e32,2017-06-12,Google Research,Transformer,research_milestone
+10,ev_35586bc6b0,2020-01-28,Google Brain,Meena,research_milestone
+10,ev_766631034c,2021-09-03,Google Research,FLAN 137B,research_milestone
+10,ev_3744708451,2022-02-10,Google,LaMDA,research_milestone
+10,ev_5ecf328f26,2022-04-04,Google Research,PaLM (540B),research_milestone
+10,ev_c143f65ced,2022-06-29,Google,Minerva (540B),research_milestone
+10,ev_08b09738e0,2022-10-20,Google,Flan-PaLM 540B,research_milestone
+11,ev_4e7686b81a,2020-06-30,Google,GShard (dense),research_milestone
+12,ev_6a4a7e272a,2021-01-11,Google,Switch,capability_breakthrough
+13,ev_b6e83bb815,2023-05-10,Google,PaLM 2,capability_breakthrough
+14,ev_0ce18a0692,2019-10-23,Google,T5-11B,capability_breakthrough
+15,ev_65ec7b3266,2019-01-09,Carnegie Mellon University (CMU),Transformer-XL (257M),capability_breakthrough
+15,ev_9dc8b2db37,2019-06-01,Carnegie Mellon University (CMU),XLNet,capability_breakthrough
+16,ev_133ab254d8,2018-02-01,University of Washington,ELMo,capability_breakthrough
+17,ev_dc7745066f,2021-09-10,NAVER,HyperCLOVA 204B,capability_breakthrough
+18,ev_238130a0fa,2022-07-11,Hugging Face,BLOOM-176B,capability_breakthrough
+19,ev_dbe6470048,2023-09-06,Technology Innovation Institute,Falcon-180B,capability_breakthrough
+20,ev_c03c5e9055,2020-05-22,Facebook,Retrieval-Augmented Generator,capability_breakthrough
+21,ev_fd76f271df,2025-07-11,Moonshot,Kimi K2,capability_breakthrough
+21,ev_ab1158c2cf,2026-07-16,Moonshot,Kimi K3,capability_breakthrough
+22,ev_b8f91df39a,2024-10-22,Anthropic,Claude 3.5 Sonnet (October 2024),agentic_development
+22,ev_7a7d9f71d4,2025-09-29,Anthropic,Claude Sonnet 4.5,agentic_development
+23,ev_9640a0af75,2023-12-14,Tsinghua University,CogAgent,agentic_development
+23,ev_84b0b81ae8,2025-01-23,OpenAI,Computer-Using Agent (CUA),autonomous_action
+24,ev_25f185d35b,2025-09-16,Alibaba,AgentFounder-30B,agentic_development
+25,ev_28772c43c8,2023-11-30,Alibaba,Qwen-72B,capability_breakthrough
+25,ev_666b1541dd,2024-09-19,Alibaba,Qwen2.5-72B,capability_breakthrough
+26,ev_3b3d7338d8,2025-04-29,Alibaba,Qwen3-235B-A22B,capability_breakthrough
+26,ev_1e9ad277d6,2026-02-15,Alibaba,Qwen3.5 397B-A17B,capability_breakthrough
+27,ev_6de8dbb615,2018-10-11,Google,BERT-Large,capability_breakthrough
+27,ev_461428081e,2019-07-01,Facebook,RoBERTa Large,capability_breakthrough
+27,ev_8a15e34240,2024-02-26,Mistral AI,Mistral Large,capability_breakthrough
+27,ev_2ec74cb606,2024-07-24,Mistral AI,Mistral Large 2,capability_breakthrough
+28,ev_12af253efd,2023-12-11,Mistral AI,Mixtral 8x7B,capability_breakthrough
+29,ev_3edd035d4d,2023-02-24,Meta AI,LLaMA-65B,capability_breakthrough
+29,ev_5628b09217,2023-07-18,Meta AI,Llama 2-70B,capability_breakthrough
+29,ev_6daf9caabd,2024-04-18,Meta AI,Llama 3-70B,capability_breakthrough
+29,ev_f7dad7f3aa,2024-07-23,Meta AI,Llama 3.1-405B,capability_breakthrough
+29,ev_edb1342b3b,2025-04-05,Meta AI,Llama 4 Maverick,capability_breakthrough
+30,ev_98abe901f2,2026-04-08,Meta AI,Muse Spark,capability_breakthrough
+31,ev_7ed2800ef6,2026-02-12,Z.ai (Zhipu AI),GLM-5,capability_breakthrough
+32,ev_9633e243a8,2020-05-28,OpenAI,GPT-3 175B (davinci),capability_breakthrough
+32,ev_129ac2fad3,2022-01-27,OpenAI,InstructGPT 175B,capability_breakthrough
+32,ev_c8968f9bd9,2022-05-02,Meta AI,OPT-175B,capability_breakthrough
+33,ev_e8cfa4c2c4,2021-07-07,OpenAI,Codex,capability_breakthrough
+33,ev_0c57efe9d1,2025-11-19,OpenAI,GPT-5.1-Codex-Max,agentic_development
+33,ev_72439794d3,2026-02-05,OpenAI,GPT-5.3 Codex,agentic_development
+34,ev_3da99ea3de,2023-03-15,OpenAI,GPT-4 (Mar 2023),capability_breakthrough
+34,ev_1904a855da,2023-11-06,OpenAI,GPT-4 Turbo (Nov 2023),capability_breakthrough
+35,ev_29318a442b,2018-06-01,OpenAI,GPT-1,capability_breakthrough
+35,ev_3f5768efd6,2019-02-14,OpenAI,GPT-2 (1.5B),capability_breakthrough
+35,ev_7800058daf,2023-09-25,OpenAI,GPT-4V,capability_breakthrough
+35,ev_fcbbc02c30,2024-05-13,OpenAI,GPT-4o,capability_breakthrough
+35,ev_80224c64f1,2025-02-27,OpenAI,GPT-4.5,capability_breakthrough
+35,ev_c241ec968e,2025-08-07,OpenAI,GPT-5,capability_breakthrough
+35,ev_807752af5f,2025-11-12,OpenAI,GPT-5.1,capability_breakthrough
+35,ev_5afc33fa4c,2026-03-05,OpenAI,GPT-5.4,capability_breakthrough
+35,ev_d8354a9a4d,2026-04-23,OpenAI,GPT-5.5,capability_breakthrough
+36,ev_15a395c3fd,2026-09-03,OpenAI,GPT-6 Astra,capability_breakthrough
+37,ev_5e2b3d3b6c,2025-08-05,OpenAI,gpt-oss-120b,capability_breakthrough
+38,ev_038d190974,2022-02-09,EleutherAI,GPT-NeoX-20B,capability_breakthrough
+39,ev_db2a52916a,2023-12-06,Google DeepMind,Gemini 1.0 Ultra,capability_breakthrough
+39,ev_585abc8879,2024-02-15,Google DeepMind,Gemini 1.5 Pro,capability_breakthrough
+39,ev_52edfd1453,2024-12-11,Google DeepMind,Gemini 2.0 Pro,capability_breakthrough
+39,ev_6bf11239a5,2025-03-25,Google DeepMind,Gemini 2.5 Pro (Mar 2025),capability_breakthrough
+39,ev_4f64794400,2025-11-18,Google DeepMind,Gemini 3 Pro,capability_breakthrough
+39,ev_470864a62f,2026-05-19,Google DeepMind,Gemini 3.5 Flash,capability_breakthrough
+39,ev_9b6b5bf757,2026-09-30,Google DeepMind,Gemini 4 Argon,capability_breakthrough
+40,ev_80895aaf85,2023-11-04,xAI,Grok-1,capability_breakthrough
+40,ev_4d0829de5a,2024-08-13,xAI,Grok-2,capability_breakthrough
+40,ev_f45eff77f7,2025-02-17,xAI,Grok 3,capability_breakthrough
+40,ev_649f05c7a3,2025-07-09,xAI,Grok 4,capability_breakthrough
+41,ev_24090fda65,2023-03-14,Anthropic,Claude,capability_breakthrough
+41,ev_ba2ac34a38,2023-07-11,Anthropic,Claude 2,capability_breakthrough
+41,ev_9dfd303cf4,2023-11-21,Anthropic,Claude 2.1,capability_breakthrough
+41,ev_19628f3bdd,2024-03-04,Anthropic,Claude 3 Opus,capability_breakthrough
+41,ev_67569b3eb7,2024-06-20,Anthropic,Claude 3.5 Sonnet,capability_breakthrough
+41,ev_2ffb82dcdb,2025-02-24,Anthropic,Claude 3.7 Sonnet,capability_breakthrough
+41,ev_44d604426f,2025-05-22,Anthropic,Claude Opus 4,capability_breakthrough
+41,ev_5319eed3d5,2025-11-24,Anthropic,Claude Opus 4.5,capability_breakthrough
+41,ev_2720d9e095,2026-05-28,Anthropic,Claude Opus 4.8,capability_breakthrough
+41,ev_001086eaa5,2026-06-09,Anthropic,Claude Fable 5,capability_breakthrough
+41,ev_98eb20a674,2026-07-24,Anthropic,Claude Opus 5,capability_breakthrough
+41,ev_72c7481bc6,2026-09-01,Anthropic,Claude Fable 5.1,capability_breakthrough
+42,ev_4cbc43013d,2026-04-07,Anthropic,Claude Mythos Preview,capability_breakthrough
+43,ev_3266bbc99e,2021-08-11,AI21 Labs,Jurassic-1-Jumbo,capability_breakthrough
+44,ev_0ea07cdc6e,2021-01-05,OpenAI,CLIP (ViT L/14@336px),capability_breakthrough

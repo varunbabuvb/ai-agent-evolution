@@ -1,0 +1,217 @@
+cluster,event_id,doc_id,date,organization,model_agent,category,title
+0,GE-0132,la_0e7e4c7589,2025-10-01,OpenAI,OpenAI models,unexpected_behavior_incident,Cyber Operation: Russian-speaking malware tooling
+0,GE-0133,la_898bd56772,2025-10-01,OpenAI,OpenAI models,unexpected_behavior_incident,Cyber Operation: Phishing and scripting support
+1,GE-0169,la_461c407476,2026-02-05,OpenAI,GPT-5.3-Codex,infrastructure_ecosystem,Introducing Trusted Access for Cyber
+1,GE-0215,la_e2a8d26765,2026-09-02,,Fairwind Program,infrastructure_ecosystem,Proactive cyber defense for governments and enterprises
+2,GE-0211,la_d570d27061,2026-08-10,OpenAI,GPT-5.6-Cyber,capability_breakthrough,Expanding Daybreak as the Cyber Defense Window Narrows
+3,GE-0001,la_0d668aeed3,2017-06-13,OpenAI; DeepMind,Learning from human preferences (reward-learning algorithm),research_milestone,Learning from human preferences
+4,GE-0014,la_69570f0651,2022-06-13,OpenAI,critique-writing models,research_milestone,AI-written critiques help humans notice flaws
+5,GE-0009,la_63828e59ba,2021-06-10,OpenAI,,research_milestone,Improving language model behavior by training on a curated dataset
+6,GE-0068,la_9fc0c61c22,2024-07-24,OpenAI,Rule-Based Rewards (RBRs),research_milestone,Improving Model Safety Behavior with Rule-Based Rewards
+7,GE-0069,pa_521a6aa01e,2024-07-30,,malfunction-amplification attack,unexpected_behavior_incident,Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification
+8,GE-0212,pa_dd22c43f48,2026-08-24,,InjecMEM,unexpected_behavior_incident,InjecMEM: Memory Injection Attack on LLM Agent Memory Systems
+9,GE-0185,pa_c537e45a4b,2026-04-07,,Back-Reveal,research_milestone,Your LLM Agent Can Leak Your Data: Data Exfiltration via Backdoored Tool Use
+10,GE-0137,pa_db4640dac0,2025-10-06,,adversarial RL defence,research_milestone,Adversarial Reinforcement Learning for Large Language Model Agent Safety
+10,GE-0142,pa_20ba4d96bc,2025-11-07,,TAMAS,research_milestone,TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems
+10,GE-0154,la_5e3e72b227,2025-12-23,ServiceNow,AprielGuard,infrastructure_ecosystem,AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems
+11,GE-0182,la_a1bdc83d63,2026-03-25,OpenAI,Safety Bug Bounty program,unexpected_behavior_incident,Introducing the OpenAI Safety Bug Bounty program
+12,GE-0213,pa_a13dc532b0,2026-08-26,,multi-agent delegation,multi_agent_coordination,Delegated Misalignment: How Multi-Agent Structures Amplify LLM Safety Risks
+13,GE-0077,pa_36b97b9e3c,2024-10-17,,LLM Agent Honeypot,unexpected_behavior_incident,LLM Agent Honeypot: Monitoring AI Hacking Agents in the Wild
+14,GE-0090,pa_9160c745b2,2025-02-13,,AgentGuard,research_milestone,AgentGuard: Repurposing Agentic Orchestrator for Safety Evaluation of Tool Orchestration
+15,GE-0088,la_8002ea3047,2025-02-02,OpenAI,Deep research,autonomous_action,Introducing deep research
+15,GE-0092,la_a00671f399,2025-02-25,OpenAI,deep research,agentic_development,Deep research System Card
+16,GE-0082,la_354f2a89c1,2024-12-05,OpenAI,OpenAI o1,capability_breakthrough,OpenAI o1 System Card
+17,GE-0207,la_8c357c1baa,2026-07-30,Google Cloud,Science One Framework,agentic_development,Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence
+18,GE-0134,pa_f2239676e9,2025-10-01,,Social Laboratory,research_milestone,The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation
+19,GE-0170,la_ab9909aef0,2026-02-13,OpenAI,GABRIEL,infrastructure_ecosystem,Scaling social science research
+20,GE-0176,la_88660b2973,2026-02-26,"OpenAI, PNNL",DraftNEPABench,research_milestone,Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting
+21,GE-0039,pa_bf554c3abe,2023-12-07,,LLMCompiler,research_milestone,An LLM Compiler for Parallel Function Calling
+21,GE-0060,pa_7c79d9f528,2024-06-27,,GRANITE-20B-FUNCTIONCALLING,capability_breakthrough,Granite-Function Calling Model: Introducing Function Calling Abilities via Multi-task Learning of Granular Tasks
+21,GE-0076,pa_a00dde92e5,2024-10-16,,,capability_breakthrough,Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning
+22,GE-0072,pa_a047761cd2,2024-09-01,,TinyAgent-1.1B and TinyAgent-7B,capability_breakthrough,TinyAgent: Function Calling at the Edge
+23,GE-0123,pa_8cf02d552d,2025-09-10,,GeoJSON Agents,multi_agent_coordination,GeoJSON Agents:A Multi-Agent LLM Architecture for Geospatial Analysis-Function Calling vs Code Generation
+24,GE-0034,pa_a98515c69d,2023-10-25,,RCAgent,agentic_development,RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models
+24,GE-0206,pa_2f83c51770,2026-07-28,,MTGuard,research_milestone,Hybrid Analysis for Secure MCP Tool Use in LLM Agents
+25,GE-0115,pa_73f5f2263b,2025-07-29,,MemTool,agentic_development,MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations
+26,GE-0109,pa_6b359407c4,2025-06-18,,LLM agent for WS-PSO-CM hyper-parameter tuning (with MCP),agentic_development,LLM Agent for Hyper-Parameter Optimization
+27,GE-0006,la_27ffa78309,2021-01-05,OpenAI,CLIP,capability_breakthrough,CLIP: Connecting text and images
+27,GE-0008,la_c65ff78afd,2021-03-04,OpenAI,CLIP,research_milestone,Multimodal neurons in artificial neural networks
+28,GE-0048,pa_04ffb36f6d,2024-03-21,,Multi-Agent VQA,multi_agent_coordination,Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering
+28,GE-0081,pa_4ab863af80,2024-11-26,,MALMM,multi_agent_coordination,MALMM: Multi-Agent Large Language Models for Zero-Shot Robotics Manipulation
+29,GE-0058,pa_6b75b319b6,2024-06-02,,HPTSA,multi_agent_coordination,Teams of LLM Agents can Exploit Zero-Day Vulnerabilities
+30,GE-0078,pa_a3528fbcee,2024-10-21,,VipAct,multi_agent_coordination,VipAct: Visual-Perception Enhancement via Specialized VLM Agent Collaboration and Tool-use
+31,GE-0116,la_0e877327bc,2025-08-05,OpenAI,gpt-oss-120b / gpt-oss-20b,capability_breakthrough,Introducing gpt-oss
+31,GE-0117,la_358d846eab,2025-08-05,OpenAI,OpenAI open-weights reasoning models,capability_breakthrough,Open Weights and AI for All
+32,GE-0024,pa_68b5b7c40f,2023-08-08,,AgentSims,research_milestone,AgentSims: An Open-Source Sandbox for Large Language Model Evaluation
+32,GE-0028,pa_79fd3507e2,2023-09-14,,Agents (open-source library),agentic_development,Agents: An Open-source Framework for Autonomous Language Agents
+32,GE-0071,pa_eeff6acd83,2024-08-05,,ReDel,multi_agent_coordination,ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems
+33,GE-0141,la_26941504a0,2025-10-23,,OpenEnv,infrastructure_ecosystem,Building the Open Agent Ecosystem Together: Introducing OpenEnv
+34,GE-0027,pa_ba27fdf11f,2023-08-24,,CGMI,multi_agent_coordination,CGMI: Configurable General Multi-Agent Interaction Framework
+34,GE-0149,pa_230f55071c,2025-12-05,,ARCANE,multi_agent_coordination,ARCANE: A Multi-Agent Framework for Interpretable and Configurable Alignment
+35,GE-0151,la_ff468cdfcb,2025-12-15,IBM Research,CUGA,agentic_development,CUGA on Hugging Face: Democratizing Configurable AI Agents
+36,GE-0067,pa_20af28b39f,2024-07-21,,Multi-agent causal discovery,multi_agent_coordination,Multi-Agent Causal Discovery Using Large Language Models
+36,GE-0196,pa_9c1596a38f,2026-06-06,,Causal Agent Replay,research_milestone,Causal Agent Replay: Counterfactual Attribution for LLM-Agent Failures
+37,GE-0029,pa_6a7684d234,2023-09-28,,DiLu,agentic_development,DiLu: A Knowledge-Driven Approach to Autonomous Driving with Large Language Models
+37,GE-0036,pa_926f28c20a,2023-11-17,,LLM language agent for driving,agentic_development,A Language Agent for Autonomous Driving
+37,GE-0066,pa_0f4720ab65,2024-07-19,,KoMA,multi_agent_coordination,KoMA: Knowledge-driven Multi-agent Framework for Autonomous Driving with Large Language Models
+37,GE-0129,pa_42ef7c0728,2025-09-29,,FuncPoison,research_milestone,FuncPoison: Poisoning Function Library to Hijack Multi-agent Autonomous Driving Systems
+38,GE-0095,pa_6c9f65661d,2025-03-06,,AgentSafe,multi_agent_coordination,AgentSafe: Safeguarding Large Language Model-based Multi-agent Systems via Hierarchical Data Management
+38,GE-0152,pa_4a6904eb67,2025-12-15,,MASTER,multi_agent_coordination,Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery
+39,GE-0158,pa_1e601b4733,2026-01-09,,StackPlanner,multi_agent_coordination,StackPlanner: A Centralized Hierarchical Multi-Agent System with Task-Experience Memory Management
+40,GE-0160,pa_3f227a5e24,2026-01-13,,Project Synapse,multi_agent_coordination,Project Synapse: A Hierarchical Multi-Agent Framework with Hybrid Memory for Autonomous Resolution of Last-Mile Delivery Disruptions
+41,GE-0032,pa_5548603042,2023-10-16,,LLM-based agents in a multi-agent cooperative text game,multi_agent_coordination,Theory of Mind for Multi-Agent Collaboration via Large Language Models
+41,GE-0062,pa_2b4863dfbb,2024-07-09,,Hypothetical Minds,agentic_development,Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models
+42,GE-0079,pa_2a223dc73e,2024-11-08,,LLM industrial control agents,autonomous_action,Autonomous Industrial Control using an Agentic Framework with Large Language Models
+43,GE-0138,pa_403cebc82d,2025-10-08,,L2M-AID,multi_agent_coordination,L2M-AID: Autonomous Cyber-Physical Defense by Fusing Semantic Reasoning of Large Language Models with Multi-Agent Reinforcement Learning (Preprint)
+44,GE-0094,pa_2530226c79,2025-03-05,,LLM swarm simulations,multi_agent_coordination,Multi-Agent Systems Powered by Large Language Models: Applications in Swarm Intelligence
+45,GE-0150,pa_02c1950e63,2025-12-09,,,research_milestone,Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence
+46,GE-0167,pa_41fc39ada3,2026-01-30,,SYMPHONY,multi_agent_coordination,SYMPHONY: Synergistic Multi-agent Planning with Heterogeneous Language Model Assembly
+47,GE-0104,pa_4b85ce64f6,2025-05-19,,The Traitors,multi_agent_coordination,The Traitors: Deception and Trust in Multi-Agent Language Model Simulations
+47,GE-0183,pa_ee5bac5b53,2026-03-27,,,multi_agent_coordination,Deception and Communication in Autonomous Multi-Agent Systems: An Experimental Study with Among Us
+48,GE-0063,pa_cf43dda235,2024-07-10,,LLM multi-agent communities,multi_agent_coordination,Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities
+49,GE-0192,pa_3390676f74,2026-05-08,,multi-agent LLM consensus,multi_agent_coordination,Insider Attacks in Multi-Agent LLM Consensus Systems
+50,GE-0110,pa_16ba62159d,2025-07-02,,BioMARS,multi_agent_coordination,BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments
+50,GE-0201,pa_65118d35fd,2026-07-08,,Megamind orchestration agent (onboard VLM multi-agent system),multi_agent_coordination,Multi-Agent Robotic Control with Onboard Vision-Language Models
+51,GE-0040,pa_715946df7b,2023-12-13,,"LLM-enhanced multi-agent system for 6G communications (MDR, MCP, MER)",multi_agent_coordination,Large Language Model Enhanced Multi-Agent Systems for 6G Communications
+51,GE-0135,pa_80d549a852,2025-10-02,,AMAS,multi_agent_coordination,AMAS: Adaptively Determining Communication Topology for LLM-based Multi-Agent System
+52,GE-0050,pa_497cb74ab0,2024-04-25,,AutoGenesisAgent,multi_agent_coordination,AutoGenesisAgent: Self-Generating Multi-Agent Systems for Complex Tasks
+53,GE-0148,pa_08c3f2d355,2025-12-02,,Thucy,multi_agent_coordination,Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases
+54,GE-0144,pa_a93c6aacba,2025-11-19,,MyAntFarm.ai,multi_agent_coordination,"Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support for Incident Response"
+55,GE-0210,pa_9a22657764,2026-08-06,,CyberLLM,multi_agent_coordination,CyberLLM: A Multi-Agent LLM Framework for Autonomous Detection and Guarded Response in Automotive Cybersecurity
+56,GE-0055,pa_e08fe768fd,2024-05-25,,STRIDE,agentic_development,STRIDE: A Tool-Assisted LLM Agent Framework for Strategic and Interactive Decision-Making
+57,GE-0139,pa_ecdb50855c,2025-10-10,,ATLAS,multi_agent_coordination,ATLAS: Adaptive Trading with LLM AgentS Through Dynamic Prompt Optimization and Multi-Agent Coordination
+57,GE-0184,pa_0af62e7cf8,2026-04-04,,PolySwarm,multi_agent_coordination,PolySwarm: A Multi-Agent Large Language Model Framework for Prediction Market Trading and Latency Arbitrage
+58,GE-0087,pa_7f4b4470dc,2025-01-23,,VulnBot,multi_agent_coordination,VulnBot: Autonomous Penetration Testing for A Multi-Agent Collaborative Framework
+58,GE-0153,pa_fde65e71d3,2025-12-21,,multi-agent committee,multi_agent_coordination,Multi-Agent LLM Committees for Autonomous Software Beta Testing
+59,GE-0074,pa_a6abfdd184,2024-10-03,,AutoML-Agent,multi_agent_coordination,AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML
+60,GE-0100,pa_53739fcb85,2025-04-20,,LLM-enabled multi-agent mechatronics design framework,multi_agent_coordination,An LLM-enabled Multi-Agent Autonomous Mechatronics Design Framework
+61,GE-0175,pa_83f1ea16e7,2026-02-24,,REDEREF,multi_agent_coordination,Training-Free Agentic AI: Probabilistic Control and Coordination in Multi-Agent LLM Systems
+61,GE-0197,pa_b491288c02,2026-06-07,,ConMem,multi_agent_coordination,ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems
+62,GE-0053,pa_d195f2ee7d,2024-05-09,,Smurfs,multi_agent_coordination,Smurfs: Multi-Agent System using Context-Efficient DFSDT for Tool Planning
+63,GE-0083,pa_8604765355,2024-12-06,,,multi_agent_coordination,Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications
+63,GE-0125,pa_4de52b337e,2025-09-20,,decentralized LLM multi-agent framework,multi_agent_coordination,Towards Transparent and Incentive-Compatible Collaboration in Decentralized LLM Multi-Agent Systems: A Blockchain-Driven Approach
+64,GE-0026,pa_b73680955c,2023-08-21,,AgentVerse,multi_agent_coordination,AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors
+65,GE-0166,pa_e1d9ad171d,2026-01-28,,AMA (Adaptive Memory via Multi-Agent Collaboration),multi_agent_coordination,AMA: Adaptive Memory via Multi-Agent Collaboration
+66,GE-0099,pa_aa97133b57,2025-04-11,,Task Memory Engine (TME),agentic_development,Task Memory Engine (TME): Enhancing State Awareness for Multi-Step LLM Agent Tasks
+67,GE-0187,pa_25080a8f0d,2026-04-11,,ClawVM,agentic_development,ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents
+68,GE-0111,pa_171d255f19,2025-07-07,,MemoryAgentBench,research_milestone,Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions
+68,GE-0147,pa_8fa1443c8b,2025-11-25,,Evo-Memory (with ExpRAG and ReMem baselines),research_milestone,Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory
+69,GE-0173,pa_339148b71a,2026-02-17,,Zombie Agent,unexpected_behavior_incident,Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections
+69,GE-0200,pa_0150f3dec3,2026-06-29,,WorldEvolver,agentic_development,Self-Evolving World Models for LLM Agent Planning
+70,GE-0091,pa_03637e5d4a,2025-02-17,,A-MEM,agentic_development,A-MEM: Agentic Memory for LLM Agents
+70,GE-0108,pa_c0c589aeab,2025-06-17,,,agentic_development,Agentic Plan Caching: Test-Time Memory for Fast and Cost-Efficient LLM Agents
+71,GE-0119,pa_aa493bb1a6,2025-08-21,,Coarse-to-Fine Grounded Memory,agentic_development,Coarse-to-Fine Grounded Memory for LLM Agent Planning
+72,GE-0061,pa_44c3faea01,2024-07-05,,AriGraph,agentic_development,AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents
+72,GE-0143,pa_97b12f765c,2025-11-11,,,agentic_development,From Experience to Strategy: Empowering LLM Agents with Trainable Graph Memory
+72,GE-0198,pa_7bf3c8b23e,2026-06-18,,Multi-Agent Transactive Memory,multi_agent_coordination,Multi-Agent Transactive Memory
+73,GE-0046,pa_643faf69b4,2024-02-17,,KG-Agent,agentic_development,KG-Agent: An Efficient Autonomous Agent Framework for Complex Reasoning over Knowledge Graph
+74,GE-0103,pa_d8d8bc3858,2025-05-16,,Vaiage,multi_agent_coordination,Vaiage: A Multi-Agent Solution to Personalized Travel Planning
+74,GE-0107,pa_032deaf638,2025-05-22,,WandaPlan,research_milestone,Is Your LLM-Based Multi-Agent a Reliable Real-World Planner? Exploring Fraud Detection in Travel Planning
+75,GE-0064,pa_4497fc23bd,2024-07-14,,LLaMAR,multi_agent_coordination,LLaMAR: Long-Horizon Planning for Multi-Agent Robots in Partially Observable Environments
+75,GE-0089,pa_8b506a6bd9,2025-02-06,,Robotouille,research_milestone,Robotouille: An Asynchronous Planning Benchmark for LLM Agents
+75,GE-0214,pa_e9c9b05a97,2026-08-26,,delay-of-gratification micro-benchmark,research_milestone,"Delay-of-Gratification as a Multi-Agent Survival Micro-benchmark for Long-Horizon LLMs: Social Exposure, Personas, and Tool Use Budgets"
+76,GE-0084,pa_f9e814b50f,2024-12-17,,SafeAgentBench,research_milestone,SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents
+76,GE-0101,pa_c59ce3e74e,2025-04-30,,LLM-driven agent-orchestration household robot,multi_agent_coordination,LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics
+76,GE-0190,pa_e4fc7a2f26,2026-04-17,,SocialGrid,research_milestone,SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems
+77,GE-0093,pa_8f971a6ec3,2025-02-26,,REALM-Bench,research_milestone,"REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems on Real-world, Dynamic Planning and Scheduling Tasks"
+78,GE-0051,pa_c9f9a9b7ae,2024-04-27,,LLM agent planning tester,research_milestone,Testing and Understanding Erroneous Planning in LLM Agents through Synthesized User Inputs
+79,GE-0070,pa_a7d2e7274d,2024-08-01,,AgentGen,research_milestone,AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation
+80,GE-0097,pa_021ae830b0,2025-03-21,,DOLA,autonomous_action,"Autonomous Radiotherapy Treatment Planning Using DOLA: A Privacy-Preserving, LLM-Based Optimization Agent"
+81,GE-0121,pa_7ab9c1a2df,2025-08-27,,RLTR,research_milestone,Encouraging Good Processes Without the Need for Good Answers: Reinforcement Learning for LLM Agent Planning
+82,GE-0007,la_e375ef0de5,2021-01-25,OpenAI,"Kubernetes cluster (7,500 nodes) for large-model training",infrastructure_ecosystem,"Scaling Kubernetes to 7,500 nodes"
+83,GE-0080,pa_79f574058e,2024-11-08,,,autonomous_action,Enhancing Cluster Resilience: LLM-agent Based Autonomous Intelligent Cluster Diagnosis System and Evaluation Framework
+84,GE-0044,pa_518aeb01c3,2024-02-02,,CodePori,multi_agent_coordination,CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology
+85,GE-0181,la_c0eeb1f9ee,2026-03-19,OpenAI,,infrastructure_ecosystem,How we monitor internal coding agents for misalignment
+86,GE-0120,pa_7d171a840c,2025-08-26,,QAgent,multi_agent_coordination,QAgent: An LLM-based Multi-Agent System for Autonomous OpenQASM programming
+86,GE-0171,pa_ea00e253ed,2026-02-13,,LLM incident-response agent,autonomous_action,In-Context Autonomous Network Incident Response: An End-to-End Large Language Model Agent Approach
+86,GE-0202,la_07a9214c69,2026-07-16,Hugging Face,autonomous agent framework (LLM not identified),unexpected_behavior_incident,Security incident disclosure — July 2026
+87,GE-0113,la_5476e7d0b0,2025-07-23,Model ML,Model ML agents,adoption_scale,Model ML is helping financial firms rebuild with AI from the ground up
+88,GE-0140,pa_780bfa2b06,2025-10-13,,MASSE,multi_agent_coordination,Automating Structural Engineering Workflows with Large Language Model Agents
+89,GE-0033,pa_14de47155d,2023-10-20,,ToolChain*,research_milestone,ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search
+89,GE-0075,pa_b025af3751,2024-10-08,,AgentSquare,agentic_development,AgentSquare: Automatic LLM Agent Search in Modular Design Space
+90,GE-0019,pa_da89dbe46d,2023-04-11,,Coscientist-style LLM agent system,autonomous_action,Emergent autonomous scientific research capabilities of large language models
+90,GE-0085,pa_10e360a757,2024-12-18,,AILA,autonomous_action,Autonomous Microscopy Experiments through Large Language Model Agents
+91,GE-0030,pa_0af58daead,2023-10-01,,LTC (Learning through Communication),research_milestone,Adapting LLM Agents with Universal Feedback in Communication
+92,GE-0045,pa_70d25c3350,2024-02-06,,LLM agents (GPT-4 based),autonomous_action,LLM Agents can Autonomously Hack Websites
+93,GE-0031,pa_e0ea8389c9,2023-10-02,,ChoiceMates,multi_agent_coordination,ChoiceMates: Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions
+94,GE-0191,pa_fff4e88b99,2026-04-26,,ClawTrace,agentic_development,ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation
+95,GE-0188,pa_a82486d133,2026-04-13,,Aethon,infrastructure_ecosystem,Aethon: A Reference-Based Replication Primitive for Constant-Time Instantiation of Stateful AI Agents
+96,GE-0035,re_847d34bbe3,2023-11-14,CrewAI,CrewAI v0.1.0,multi_agent_coordination,crewAIInc/crewAI v0.1.0
+96,GE-0161,re_6a152a8223,2026-01-15,crewAIInc,CrewAI 1.8.1,multi_agent_coordination,crewAIInc/crewAI 1.8.1
+96,GE-0164,re_d86fe9128a,2026-01-27,CrewAI,CrewAI 1.9.0,multi_agent_coordination,crewAIInc/crewAI 1.9.0
+96,GE-0186,re_e562d54c7e,2026-04-07,crewAIInc,CrewAI 1.14.0a4,infrastructure_ecosystem,crewAIInc/crewAI 1.14.0a4
+97,GE-0020,re_f90af67292,2023-04-15,Significant Gravitas,Auto-GPT v0.2.0,agentic_development,Significant-Gravitas/AutoGPT Auto-GPT v0.2.0
+97,GE-0022,re_04c4c1ccc0,2023-07-11,Significant Gravitas,Auto-GPT v0.4.4,agentic_development,Significant-Gravitas/AutoGPT Auto-GPT v0.4.4
+97,GE-0023,re_df1be0a9be,2023-07-28,Significant-Gravitas,Auto-GPT v0.4.6,agentic_development,Significant-Gravitas/AutoGPT Auto-GPT v0.4.6
+97,GE-0042,re_a9cd035e1b,2023-12-14,Significant-Gravitas,AutoGPT v0.5.0,infrastructure_ecosystem,Significant-Gravitas/AutoGPT AutoGPT v0.5.0
+97,GE-0086,re_85dc1fb56c,2024-12-20,Significant Gravitas,AutoGPT Platform (beta v0.4.0),infrastructure_ecosystem,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.4.0
+97,GE-0155,re_2be567bdef,2026-01-07,Significant-Gravitas,AutoGPT Platform v0.6.41,agentic_development,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.6.41
+97,GE-0179,re_f6a082d95f,2026-03-12,Significant-Gravitas,AutoGPT Platform v0.6.51,agentic_development,Significant-Gravitas/AutoGPT AutoGPT Platform v0.6.51 🚀
+97,GE-0204,re_c25a82592c,2026-07-22,Significant-Gravitas,AutoGPT Platform v0.6.69,agentic_development,Significant-Gravitas/AutoGPT 🚀 AutoGPT Platform v0.6.69
+97,GE-0209,re_597a69b5e8,2026-08-05,Significant-Gravitas,AutoGPT Platform v0.7.0,infrastructure_ecosystem,Significant-Gravitas/AutoGPT autogpt-platform-beta-v0.7.0
+98,GE-0037,re_14f5813247,2023-11-25,Microsoft,AutoGen v0.2.0,agentic_development,microsoft/autogen v0.2.0
+98,GE-0038,re_d4d09d1001,2023-12-06,microsoft/autogen,AutoGen v0.2.1 (AutoBuild),multi_agent_coordination,microsoft/autogen v0.2.1
+98,GE-0043,re_0d23d1f6b0,2024-01-08,Microsoft,AutoGen v0.2.4,agentic_development,microsoft/autogen v0.2.4
+98,GE-0059,re_18840d713e,2024-06-21,Microsoft,AutoGen v0.2.30,infrastructure_ecosystem,microsoft/autogen v0.2.30
+98,GE-0114,re_fea02de5e6,2025-07-28,microsoft/autogen,AutoGen python-v0.7.1,infrastructure_ecosystem,microsoft/autogen python-v0.7.1
+99,GE-0011,la_2a4e65640a,2021-10-29,OpenAI,,research_milestone,Solving math word problems
+100,GE-0065,la_e6630b72aa,2024-07-17,OpenAI,,research_milestone,Prover-Verifier Games improve legibility of language model outputs
+101,GE-0003,la_91e1049853,2019-04-23,OpenAI,Sparse Transformer,research_milestone,Generative modeling with sparse transformers
+102,GE-0012,la_e13f290e48,2022-01-25,OpenAI,OpenAI embeddings endpoint,infrastructure_ecosystem,Introducing text and code embeddings
+103,GE-0118,la_a8eaf9f821,2025-08-07,OpenAI,GPT-5,capability_breakthrough,GPT-5 System Card
+103,GE-0180,la_c3086d499c,2026-03-17,OpenAI,GPT-5.4 mini and GPT-5.4 nano,capability_breakthrough,Introducing GPT-5.4 mini and nano
+104,GE-0102,la_09eb7ecc11,2025-05-16,OpenAI,Codex / codex-1,autonomous_action,Addendum to o3 and o4-mini system card: Codex
+104,GE-0106,la_d96d69db2e,2025-05-22,CodeRabbit,"o3, o4-mini, GPT-4.1",adoption_scale,"Shipping code faster with o3, o4-mini, and GPT-4.1"
+105,GE-0021,la_e56419c90d,2023-05-09,OpenAI,GPT-4,research_milestone,Language models can explain neurons in language models
+105,GE-0041,la_da3c5b116f,2023-12-14,OpenAI,"Weak-to-strong generalization (GPT-2-level supervisor, GPT-4)",research_milestone,Weak-to-strong generalization
+106,GE-0049,la_436dcd7b3c,2024-04-24,OpenAI,GPT-4 API,infrastructure_ecosystem,GPT-4 API general availability and deprecation of older models in the Completions API
+107,GE-0004,la_5427ee1230,2019-04-25,OpenAI,MuseNet,capability_breakthrough,MuseNet
+107,GE-0005,la_ab87880304,2020-06-17,OpenAI,Image GPT,capability_breakthrough,Image GPT
+107,GE-0017,la_cf00b7ae1f,2023-03-14,OpenAI,GPT-4,capability_breakthrough,GPT-4
+108,GE-0025,la_0f569fe062,2023-08-15,OpenAI,GPT-4,capability_breakthrough,Using GPT-4 for content moderation
+108,GE-0073,la_621811037f,2024-09-26,OpenAI,multimodal moderation model (GPT-4o based),capability_breakthrough,Upgrading the Moderation API with our new multimodal moderation model
+109,GE-0054,la_c486538cb1,2024-05-13,OpenAI,GPT-4o,capability_breakthrough,Introducing GPT-4o and more tools to ChatGPT free users
+110,GE-0216,la_8b954ea26b,2026-09-03,OpenAI,GPT-6 Astra,capability_breakthrough,GPT-6 Astra: A new generation of intelligence
+111,GE-0130,la_a6fde770d6,2025-09-30,OpenAI,Sora 2,capability_breakthrough,Sora 2 System Card
+111,GE-0131,la_f69a340d19,2025-09-30,OpenAI,Sora 2 / Sora app,capability_breakthrough,Launching Sora responsibly
+112,GE-0002,la_100446a7f6,2019-02-14,OpenAI,GPT-2,capability_breakthrough,Better language models and their implications
+113,GE-0013,la_861bee6c31,2022-01-27,OpenAI,InstructGPT,capability_breakthrough,Aligning language models to follow instructions
+114,GE-0018,la_bbf31f939c,2023-03-23,OpenAI,ChatGPT plugins,infrastructure_ecosystem,ChatGPT plugins
+115,GE-0156,la_359738e7b0,2026-01-08,OpenAI,ChatGPT for Healthcare and OpenAI API for healthcare,adoption_scale,OpenAI for Healthcare
+116,GE-0057,la_2d5fba6a19,2024-05-30,OpenAI,ChatGPT Business and ChatGPT Enterprise (nonprofit programme),adoption_scale,Introducing OpenAI for Nonprofits
+116,GE-0127,la_25e1e85d3f,2025-09-24,ENEOS Materials,ChatGPT Enterprise,adoption_scale,ENEOS Materials brings ChatGPT Enterprise to manufacturing
+116,GE-0159,la_3465dbe784,2026-01-13,Zenken,ChatGPT Enterprise,adoption_scale,Zenken boosts a lean sales team with ChatGPT Enterprise
+117,GE-0015,la_fa1ebe6395,2022-11-30,OpenAI,ChatGPT,capability_breakthrough,Introducing ChatGPT
+117,GE-0016,la_9299275e4c,2023-02-01,OpenAI,ChatGPT Plus,infrastructure_ecosystem,Introducing ChatGPT Plus
+118,GE-0128,la_ce60d03934,2025-09-25,OpenAI,ChatGPT Pulse,autonomous_action,Introducing ChatGPT Pulse
+119,GE-0124,la_9bf2135904,2025-09-15,OpenAI,ChatGPT (consumer usage study),adoption_scale,How people are using ChatGPT
+120,GE-0052,la_0b7e7105cf,2024-05-06,OpenAI,OpenAI API,infrastructure_ecosystem,API Partnership with Stack Overflow
+120,GE-0056,la_6c720b8500,2024-05-29,"OpenAI, Vox Media",ChatGPT,infrastructure_ecosystem,A Content and Product Partnership with Vox Media
+121,GE-0177,la_5c157a0f1b,2026-02-27,OpenAI; Amazon (AWS),Stateful Runtime Environment on Amazon Bedrock; OpenAI Frontier,infrastructure_ecosystem,OpenAI and Amazon announce strategic partnership
+122,GE-0010,la_ae88f447f7,2021-08-10,OpenAI,Codex,capability_breakthrough,OpenAI Codex
+122,GE-0136,la_cfa376d35c,2025-10-06,OpenAI,"Codex (CLI, cloud agent, SDK, Slack integration)",adoption_scale,Codex is now generally available
+122,GE-0194,la_9b923bad35,2026-06-02,OpenAI,Codex,adoption_scale,"Codex for every role, tool, and workflow"
+123,GE-0168,la_8207a8a99c,2026-02-04,OpenAI,Codex App Server,infrastructure_ecosystem,Unlocking the Codex harness: how we built the App Server
+123,GE-0189,la_a0464d4374,2026-04-16,OpenAI,Codex,autonomous_action,Codex for (almost) everything
+124,GE-0195,la_fa84d03435,2026-06-02,"Travelers, OpenAI",AI Claim Assistant,adoption_scale,Travelers deploys AI-powered claims countrywide with OpenAI
+125,GE-0208,la_97562427dc,2026-08-03,"Circles, OpenAI",OpenAI API,adoption_scale,Circles powers telco personalization with OpenAI technology
+126,GE-0126,la_9b042a61ba,2025-09-22,SchoolAI,"SchoolAI platform (GPT-4.1, image generation, text-to-speech)",adoption_scale,SchoolAI builds an AI platform that empowers teachers
+127,GE-0163,la_f3f47538cb,2026-01-27,"TRUSTBANK, Recursive",Choice AI,adoption_scale,TRUSTBANK uses AI agents to personalize Furusato Nozei gifts
+128,GE-0178,la_70dadf2e6e,2026-02-28,OpenAI,OpenAI AI services under agreement with the Department of War,infrastructure_ecosystem,Our agreement with the Department of War
+129,GE-0096,la_a99faab3d7,2025-03-11,OpenAI,Responses API and Agents SDK,infrastructure_ecosystem,New tools for building agents
+129,GE-0105,la_c8ff694e4c,2025-05-21,OpenAI,Responses API,infrastructure_ecosystem,New tools and features in the Responses API
+130,GE-0098,la_483586da1c,2025-03-31,OpenAI,OpenAI / ChatGPT,adoption_scale,New funding to build towards AGI
+131,GE-0122,la_70a6acae2a,2025-09,OpenAI,,research_milestone,An update on our mental health-related work
+132,GE-0193,la_8ec382739a,2026-05-19,Google DeepMind,Gemini 3.5,capability_breakthrough,Gemini 3.5: frontier intelligence with action
+132,GE-0217,la_8d6a4fe548,2026-09-30,Google DeepMind,Gemini 4 Argon,capability_breakthrough,Gemini 4 Argon: our next era of frontier intelligence
+133,GE-0162,la_89b0ac10d2,2026-01-20,"ServiceNow, OpenAI",OpenAI frontier models,infrastructure_ecosystem,ServiceNow powers actionable enterprise AI with OpenAI
+133,GE-0165,la_eb18c216d3,2026-01-28,"ServiceNow, Anthropic",Claude,infrastructure_ecosystem,ServiceNow chooses Claude
+134,GE-0157,la_52ec0eca2c,2026-01-08,Netomi,Netomi Agentic OS,adoption_scale,Netomi’s lessons for scaling agentic systems into the enterprise
+135,GE-0203,pa_4da87fd66c,2026-07-19,,Agentic ERP,multi_agent_coordination,Agentic ERP: Multi-Agent Large Language Model Architecture for Autonomous Enterprise Resource Planning
+136,GE-0146,pa_1ef12c994b,2025-11-25,,vision-based task-completion judge,research_milestone,"""Are We Done Yet?"": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents"
+136,GE-0199,pa_d08f790e2d,2026-06-23,,,research_milestone,Reinforcement Learning for Computer-Use Agents with Autonomous Evaluation
+137,GE-0047,la_58f9a819d1,2024-03-13,Anthropic,Claude 3 Haiku,capability_breakthrough,Claude 3 Haiku: our fastest model yet
+137,GE-0145,la_0569b8ff4e,2025-11-24,Anthropic,Claude Opus 4.5,capability_breakthrough,Introducing Claude Opus 4.5
+137,GE-0172,la_509dbec071,2026-02-17,Anthropic,Claude Sonnet 4.6,capability_breakthrough,Introducing Sonnet 4.6
+138,GE-0112,la_875c92ade4,2025-07-10,,ScreenEnv,infrastructure_ecosystem,ScreenEnv: Deploy your full stack Desktop Agent
+139,GE-0174,la_7df6e000ee,2026-02-18,"IBM, UC Berkeley",IT-Bench / MAST,research_milestone,IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST
