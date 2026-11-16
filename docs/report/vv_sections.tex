@@ -1,0 +1,344 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\setlist{itemsep=0.1em,topsep=0.3em}
+
+\newcommand{\code}[1]{\texttt{#1}}
+% Marks text the author still has to fill in; remove before submission.
+\newcommand{\todo}[1]{\textbf{[TODO: #1]}}
+
+\title{Predictive Analysis of AI-Bot Evolution Using NLP-Based Canon Event Extraction\\[0.3em]
+\large Introduction and System Description}
+\author{Project team}
+\date{}
+
+\begin{document}
+\maketitle
+
+%==============================================================================
+\section{Introduction}
+\label{sec:intro}
+
+\subsection{Motivation and research question}
+AI systems have moved quickly from language models that only generate text to systems that call tools, plan
+multi-step tasks, operate a computer and coordinate with other agents. Evidence of this change is spread over a
+large and fast-moving collection of research papers, laboratory blog posts, release notes and incident reports.
+These sources are unstructured, repetitive and scattered over time, so it is hard to say when a capability
+first appeared, how it spread, or whether the overall pattern of development is changing.
+
+This project asks: \emph{can NLP-based extraction of significant AI-agent developments reveal a measurable
+evolution timeline, identify transitions between phases of AI-agent development, and support a data-driven
+forecast of an emerging next phase?}
+
+We deliberately do not claim to predict a date for an ``AI revolution''. The measurable goal is narrower: to
+forecast an explicitly defined quantity, the dominant event category in the next month, from patterns in the
+historical event sequence.
+
+\subsection{Approach}
+The central object of the project is the \emph{AI canon event}: a significant, dated development in a
+language-model-based or agentic AI system that represents a meaningful change in capability, autonomy,
+interaction, deployment or ecosystem behaviour. Each event is stored as a structured record (organisation,
+system, capability, action, autonomy level, interaction type, impact, source and confidence) and assigned to one
+of eight categories: capability breakthrough, agentic development, multi-agent coordination, autonomous action,
+unexpected behaviour or incident, infrastructure and ecosystem, adoption and scale, and research milestone.
+The categories and their rules are fixed in a single configuration file shared by every component.
+
+The processing chain is: (1)~collect dated documents; (2)~clean and deduplicate them; (3)~extract events with
+NER, temporal extraction and event-trigger detection; (4)~classify and normalise events and link reports of the
+same real event; (5)~place events on a timeline; (6)~compute monthly features; (7)~detect trends and phase
+changes; (8)~forecast the dominant category of the next month using only past data; and (9)~present the result
+with its supporting events and sources. The conceptual phase sequence from the project brief (language models,
+tool use, agents, autonomous agents, multi-agent systems, emergent behaviour, large-scale ecosystems) is used as
+an initial hypothesis that the data may confirm or contradict, not as an assumed fact.
+
+\subsection{Scope of this part of the report}
+The project was carried out by four members who all took part in annotation, review and evaluation. This part
+describes the \emph{system}: how the corpus was collected and cleaned (Section~\ref{sec:collection} and
+\ref{sec:cleaning}), how documents and events are stored and queried (Section~\ref{sec:db}), the interactive
+application (Section~\ref{sec:app}) and how the work was kept reproducible (Section~\ref{sec:repro}). Section~%
+\ref{sec:limits} lists the limits of the data infrastructure. Event extraction, linking, phase analysis,
+forecasting and their evaluation are described in the other parts of the report, and the system described here
+is built to display their outputs.
+
+\subsection{A note on interpretation}
+News and reports are an imperfect proxy for what AI systems can actually do. Media attention, source choice,
+duplicate reporting, missing events and changing terminology all distort a timeline built from text. All
+results in this report are therefore analyses of \emph{reported} developments in our corpus. The application
+keeps every number traceable to its source documents so that readers can check it.
+
+%==============================================================================
+\section{System Description}
+\label{sec:system}
+
+\subsection{Overview}
+The system is a Python code base (version~3.13) organised as a package, \code{ainevo}, plus command-line
+scripts and a Streamlit application. Table~\ref{tab:overview} summarises the components.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{@{}p{3.3cm}p{11.7cm}@{}}
+\toprule
+Component & Purpose \\
+\midrule
+Collection & Downloads dated documents from arXiv, laboratory blogs and GitHub release pages \\
+Preprocessing & Merges sources, cleans text and dates, removes duplicates, applies monthly caps \\
+Storage & SQLite database holding documents, events and event--document links; full-text search \\
+Later stages & Extraction, linking, features, analysis and forecasting; described in the other parts of the report \\
+Application & Streamlit pages for search, timeline, phases, forecast and evidence \\
+Configuration & YAML files for sources, the event taxonomy and the forecasting split \\
+\bottomrule
+\end{tabular}
+\caption{Components of the system.}
+\label{tab:overview}
+\end{table}
+
+Raw data, the cleaned corpus and the database are generated files and are not kept in version control. Every
+step can be re-run from the command line (Section~\ref{sec:repro}).
+
+%------------------------------------------------------------------------------
+\subsection{Data collection}
+\label{sec:collection}
+The corpus combines three document families, chosen because they complement each other: papers show research
+milestones, laboratory posts give precisely dated releases and capability announcements, and release notes of
+agent frameworks show how tooling and infrastructure change.
+
+\begin{description}[leftmargin=0.5cm,style=nextline]
+\item[Research papers.] Titles, abstracts, dates and links are retrieved from the arXiv API for five
+categories (cs.AI, cs.CL, cs.MA, cs.LG and cs.SE) from January 2017 onward. From 2023 a paper must mention both
+a language-model term (for example ``large language model'', ``foundation model'', GPT) and an agent term
+(for example agent, tool use, function calling, planning, memory, multi-agent, autonomous, computer use), which
+removes classical multi-agent reinforcement learning and robotics papers. For 2017--2022, the period of
+language models before ``LLM agents'', a separate list of broader terms (language model, dialogue, pretrained,
+transformer, natural-language instructions, tool) selects fewer, better-matched papers. A per-year target
+(40 papers per year for 2017--2021, 80 for 2022 and 150 to 180 per year for 2023--2026) keeps early years from
+being empty while the volume of agent papers grows sharply after 2022.
+\item[Laboratory and company blogs.] Posts from OpenAI, Google DeepMind, Google Research and Hugging Face are
+read from their RSS feeds. Anthropic offers no feed, so its sitemap is read and only news pages are kept. A page
+without a publication date is skipped, never guessed. Feed summaries shorter than 400 characters are replaced
+by the full page text, fetched only where \code{robots.txt} allows it. The \code{text\_source} field records
+whether a document holds a full page or only a feed summary.
+\item[Release notes.] GitHub releases of four agent frameworks (LangChain, CrewAI, AutoGPT and AutoGen) are
+collected through the GitHub API, skipping releases with almost no description (under 50 characters); an
+optional access token raises the rate limit.
+\end{description}
+
+All collectors follow the same rules: respect \code{robots.txt}, terms of service and rate limits; record the
+retrieval date and the query or rule that found each document; keep the original source information; and never
+guess a missing publication date. Each document receives a stable identifier,
+\code{doc\_id} = first two letters of the source type + ``\_'' + the first ten characters of the MD5 hash of its URL, so
+the same page always has the same identifier.
+
+\paragraph{Document record.} Every document has the fields \code{doc\_\allowbreak{}id}, \code{title}, \code{publication\_\allowbreak{}date},
+\code{source}, \code{source\_\allowbreak{}type}, \code{url}, \code{text}, \code{retrieval\_\allowbreak{}date}, \code{query\_\allowbreak{}used} and a
+\code{metadata} object (flags \code{llm\_\allowbreak{}terms\_\allowbreak{}found}, \code{low\_\allowbreak{}signal\_\allowbreak{}release} and \code{text\_\allowbreak{}source}).
+
+%------------------------------------------------------------------------------
+\subsection{Cleaning, deduplication and the frozen corpus}
+\label{sec:cleaning}
+The raw files are merged and cleaned in one pipeline. It removes boilerplate and irrelevant text, normalises
+dates, removes exact duplicates and near-duplicates (using MinHash similarity), and keeps the original source
+information. The pipeline starts from 3{,}161 merged documents and removes 93 whose date lies outside the
+project range (before 2017 or after the data cutoff of 30 September 2026), 31 that are too short to carry
+content and 19 near-duplicates, which leaves 3{,}018 documents. Two further checks only flag documents without
+removing them: 544 documents contain none of the language-model terms used in the collection filters, and 24
+release notes are marked as low-signal (for example version bumps).
+
+Two design choices affect later analysis. First, \emph{monthly caps} limit how many documents one source can
+contribute (OpenAI 15 per month, Hugging Face 8 per month, release notes 8 per repository per month). Without
+them a few prolific sources would dominate the monthly event counts that the forecast uses. Second, documents
+that were hand-annotated are never removed by cleaning, so the gold labels always refer to documents that exist
+in the final corpus.
+
+The corpus was frozen with a fixed data cutoff so that the forecasting test set cannot drift. The frozen file
+\code{corpus\_v1\_clean.jsonl} contains 3{,}018 documents from 2017 to September 2026 and is identified by its
+SHA-256 value
+\begin{center}\small\code{48d3d61e15963f13a78a3b7e030d7882fa9b4a75e3ce3d4b78d2560208a88b09.}\end{center}
+The cutoff of 30 September 2026
+is the last complete month; later documents are removed during cleaning, so the forecasting series and the
+corpus end at the same date.
+Table~\ref{tab:corpus} gives the composition.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Year & Lab blogs & Papers & Release notes & Total \\
+\midrule
+2017 & 27 & 41 & 0 & 68 \\
+2018 & 18 & 42 & 0 & 60 \\
+2019 & 18 & 41 & 0 & 59 \\
+2020 & 16 & 42 & 0 & 58 \\
+2021 & 43 & 42 & 0 & 85 \\
+2022 & 92 & 82 & 0 & 174 \\
+2023 & 161 & 153 & 135 & 449 \\
+2024 & 225 & 192 & 176 & 593 \\
+2025 & 337 & 195 & 222 & 754 \\
+2026 & 371 & 154 & 193 & 718 \\
+\midrule
+Total & 1{,}308 & 984 & 726 & 3{,}018 \\
+\bottomrule
+\end{tabular}
+\caption{Frozen corpus by year and source type. No release notes before 2023 were found in the four
+collected repositories.}
+\label{tab:corpus}
+\end{table}
+
+By source the corpus holds arXiv 984, OpenAI 613, Hugging Face 434, LangChain 341, CrewAI 175, Anthropic 149,
+AutoGPT 115, AutoGen 95, Google DeepMind 61 and Google Research 51 documents.
+
+%------------------------------------------------------------------------------
+\subsection{Event database}
+\label{sec:db}
+Documents and events are stored in a single SQLite file built from scratch by one script, so the same inputs
+always give the same database. SQLite was chosen because the project is small, runs on every member's laptop
+and needs no server.
+
+\paragraph{Tables.}
+\begin{itemize}
+\item \code{documents}: the document record above, plus a year column and indexes on date, type and year. A
+full-text index (SQLite FTS5 with Porter stemming) covers titles and text.
+\item \code{events}: one row per canon event, with the event fields of the project schema, the month used by
+the monthly features, the \code{origin} of the event and the classifier split used for evaluation.
+\item \code{event\_sources}: links each event to every document that reports it, so an event can have several
+sources after linking.
+\end{itemize}
+
+\paragraph{Origins and validation.} Every event has an origin: \code{gold} (labelled by hand by the team under
+the frozen guidelines), \code{extracted} (output of the automatic extraction pipeline) or \code{seed}. Before an
+event is inserted it is checked against the taxonomy file: category, capability tag, interaction type, autonomy
+level (0--4 or not applicable), phase hint (1--7), date format, and the confidence scale, which is 1--3 for
+annotator confidence on gold events and a probability between 0 and 1 for extracted events. An invalid row is
+rejected and reported without blocking the others.
+
+\paragraph{Gold merges.} The team ruled that two gold annotations describe the same real intrusion at one
+organisation in July 2026. The loader applies such rulings from a small reference table, located by annotation
+identifier because event identifiers are renumbered between versions, keeps one event and adds the second
+document to its sources. The database therefore holds 216 gold events (from 217 annotated events), the same
+set that the forecasting features are built from.
+
+\paragraph{Contents.} Table~\ref{tab:events} lists the final database.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Category & Gold & Extracted \\
+\midrule
+Multi-agent coordination & 57 & 249 \\
+Research milestone & 39 & 140 \\
+Agentic development & 30 & 19 \\
+Infrastructure and ecosystem & 28 & 131 \\
+Capability breakthrough & 28 & 222 \\
+Adoption and scale & 15 & 85 \\
+Autonomous action & 11 & 2 \\
+Unexpected behaviour or incident & 8 & 23 \\
+\midrule
+Total & 216 & 871 \\
+\bottomrule
+\end{tabular}
+\caption{Events in the database by category and origin. The extracted events are provisional model output
+(Section~\ref{sec:limits}).}
+\label{tab:events}
+\end{table}
+
+\paragraph{Query layer.} The storage module offers document search (free text plus filters on source, source
+type and year) and event queries filtered by category, organisation, capability, autonomy level, month range and
+origin. Each event returned carries its list of source documents, which is what makes every displayed result
+traceable.
+
+%------------------------------------------------------------------------------
+\subsection{Interactive application}
+\label{sec:app}
+The application is built with Streamlit and Plotly and reads only from the database and from the result files
+of the other components. It has six pages (Table~\ref{tab:pages}).
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{@{}lp{12cm}@{}}
+\toprule
+Page & Content \\
+\midrule
+Home & Corpus size, number of events, documents per year and source type, largest sources \\
+Corpus & Full-text search with filters on source type, source and year range; full text and link for each result \\
+Timeline & Events by category over time, events per month, filters (category, organisation, capability, autonomy
+level, origin, months), event details with source links \\
+Phases & Events per month with a three-month moving average, selectable feature trends, dominant category per
+month, the quarterly 2017--2021 view and change-point segments \\
+Forecast & Predicted dominant category for the next month, class probabilities, baselines, test metrics,
+validation and test history, top features and supporting events \\
+Evidence & One event with its fields, its source documents and the trigger phrase shown in its surrounding text \\
+\bottomrule
+\end{tabular}
+\caption{Pages of the application.}
+\label{tab:pages}
+\end{table}
+
+Four design decisions follow from the project's emphasis on honest interpretation.
+\begin{enumerate}
+\item \emph{Gold is the default.} The timeline opens on the hand-labelled events. Extracted events can be added
+with the origin filter, and whenever they are included the page shows a warning that they are model output with
+rough categories and approximate counts.
+\item \emph{Traceability.} From any forecast, supporting event or timeline point the user can open the Evidence
+page and read the original document and the exact words that signalled the event.
+\item \emph{No invented results.} The forecast page reads the forecasting output from a result file. If that
+file is missing, the page shows a clearly labelled most-frequent baseline instead of a model forecast. The
+history is split into validation and test months so that the displayed accuracy matches the reported test
+metric.
+\item \emph{Empty states.} Pages explain what is missing (for example a missing database or result file) and
+which command creates it, instead of failing.
+\end{enumerate}
+
+%------------------------------------------------------------------------------
+\subsection{Reproducibility and engineering practice}
+\label{sec:repro}
+\begin{itemize}
+\item \emph{Commands.} Collection, the cleaning pipeline, the database build, the loading of extracted events and
+the application each have one command, listed in the repository README together with an installation guide and
+a demo script.
+\item \emph{Configuration.} Sources, the taxonomy (categories, phases, scales and tag lists) and the
+forecasting split and cutoff are YAML files rather than constants in code, so all components share one definition.
+\item \emph{Fixed inputs.} The corpus is identified by a SHA-256 value; package versions are pinned in the
+requirements file.
+\item \emph{Tests.} Unit tests cover the storage module (schema, loaders, search, validation, event queries and
+the gold merges) and the cleaning and date logic; the full suite of 32 tests passes.
+\item \emph{Version control.} Each member worked on a branch named after their initials and task, changes were
+merged through reviewed pull requests, the main branch was protected, and raw data, databases, keys and large
+files were kept out of the repository.
+\end{itemize}
+
+%------------------------------------------------------------------------------
+\subsection{Limitations of the data infrastructure}
+\label{sec:limits}
+\begin{itemize}
+\item \emph{Coverage.} The years 2017--2021 and 2022 contain fewer documents than planned (58--85 per year before
+2022 and 174 in 2022), so the early part of the timeline is sparse. No Meta AI, Mistral, DeepSeek or Qwen sources and no
+MCP or A2A announcements were collected, and Microsoft Research, although configured as a source, contributes no
+documents to the frozen corpus. The news and incident-report families
+planned for the project are not part of the frozen corpus.
+\item \emph{Source bias.} The corpus favours a handful of laboratories and frameworks. The monthly caps reduce,
+but do not remove, the effect of prolific sources, and caps themselves influence monthly counts.
+\item \emph{Dates.} For papers and release notes the publication date is used as the event date because the
+text rarely states a separate date, so the timeline can lag the real development.
+\item \emph{Text quality.} Some blog posts are available only as feed summaries, which gives the extraction less
+text to work with.
+\item \emph{Extracted events are provisional.} The 871 extracted events use probability thresholds chosen on
+about 37 labelled documents per source type. The set contains no release-note events, its categories are about
+60\% accurate against the gold events, and its counts are approximate. It is displayed but not used for
+forecasting.
+\item \emph{Deployment.} The application is a local, single-user analysis tool over a read-only database, not a
+production service.
+\end{itemize}
+
+\end{document}
