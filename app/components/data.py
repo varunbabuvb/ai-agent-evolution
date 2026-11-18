@@ -13,6 +13,32 @@ import streamlit as st  # noqa: E402
 from ainevo.storage import db  # noqa: E402
 
 DB_PATH = ROOT / "data" / "processed" / "events.db"
+# The full corpus is kept out of Git; the repository carries a copy with secret-looking strings redacted.
+CORPUS_CANDIDATES = [ROOT / "data" / "interim" / "corpus_v1_clean.jsonl",
+                     ROOT / "data" / "deploy" / "corpus_public.jsonl"]
+CORPUS_PATH = next((p for p in CORPUS_CANDIDATES if p.exists()), CORPUS_CANDIDATES[0])
+GOLD_PATH = ROOT / "data" / "annotations" / "gold_events_v1.csv"
+EXTRACTED_PATH = ROOT / "data" / "processed" / "extracted_events.csv"
+TAXONOMY_PATH = ROOT / "configs" / "taxonomy.yaml"
+
+
+@st.cache_resource(show_spinner="Building the database from the corpus (first start only, about a minute)...")
+def build_if_missing() -> bool:
+    """Build events.db from the corpus when it does not exist (for example on Streamlit Cloud, where the
+    generated database is not in the repository). Returns True if a database is available."""
+    if DB_PATH.exists():
+        return True
+    if not CORPUS_PATH.exists():
+        return False
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    db.build_database(DB_PATH, CORPUS_PATH, GOLD_PATH if GOLD_PATH.exists() else None, str(TAXONOMY_PATH))
+    if EXTRACTED_PATH.exists():
+        conn = db.connect(DB_PATH)
+        try:
+            db.load_events_file(conn, EXTRACTED_PATH, db.load_taxonomy(str(TAXONOMY_PATH)), origin="extracted")
+        finally:
+            conn.close()
+    return DB_PATH.exists()
 
 
 def db_ready() -> bool:
@@ -20,9 +46,11 @@ def db_ready() -> bool:
 
 
 def require_db() -> None:
-    """Stop the page with a clear message if the database has not been built."""
+    """Make sure the database exists (building it if the corpus is present), else stop with a clear message."""
     if not db_ready():
-        st.error("Database not found. From the repo root run:  "
+        build_if_missing()
+    if not db_ready():
+        st.error("Database not found and the corpus file is missing. From the repo root run:  "
                  "py -3.13 scripts/build_db.py --events data/annotations/gold_events_v1.csv")
         st.stop()
 
